@@ -1,0 +1,4 @@
+# .ruff.toml
+
+[lint]
+ignore = ["F821"]
