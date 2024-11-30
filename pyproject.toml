@@ -1,0 +1,15 @@
+[project]
+name = "learning-map-analysis"
+version = "0.1.0"
+description = "Python project for university module on creating learning maps"
+authors = [
+    {name = "Andy Evans"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
