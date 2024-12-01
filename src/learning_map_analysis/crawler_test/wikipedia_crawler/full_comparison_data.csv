@@ -1,0 +1,148 @@
+Book,Chapter,Methods,Percentage Covered,Scraper Percentage Covered
+Fundamental data structures,Introduction,Louvain,22.22222222222222,88.88888888888889
+Fundamental data structures,Introduction,Label Propagation,22.22222222222222,88.88888888888889
+Fundamental data structures,Introduction,Pagerank,11.11111111111111,88.88888888888889
+Graph algorithms,Graph exploration and vertex ordering,Louvain,11.11111111111111,44.44444444444444
+Graph algorithms,Graph exploration and vertex ordering,Label Propagation,11.11111111111111,44.44444444444444
+Graph algorithms,Graph exploration and vertex ordering,Pagerank,11.11111111111111,44.44444444444444
+Graph algorithms,Connectivity of undirected graphs,Louvain,25.0,50.0
+Graph algorithms,Connectivity of undirected graphs,Label Propagation,25.0,50.0
+Graph algorithms,Connectivity of undirected graphs,Pagerank,25.0,50.0
+Graph algorithms,Connectivity of directed graphs,Louvain,7.142857142857143,35.71428571428571
+Graph algorithms,Connectivity of directed graphs,Label Propagation,7.142857142857143,35.71428571428571
+Graph algorithms,Connectivity of directed graphs,Pagerank,7.142857142857143,35.71428571428571
+Graph algorithms,Shortest paths,Louvain,9.090909090909092,9.090909090909093
+Graph algorithms,Shortest paths,Label Propagation,9.090909090909092,9.090909090909093
+Graph algorithms,Shortest paths,Pagerank,9.090909090909092,9.090909090909093
+Graph algorithms,Minimum spanning trees,Louvain,12.5,62.5
+Graph algorithms,Minimum spanning trees,Label Propagation,12.5,62.5
+Graph algorithms,Minimum spanning trees,Pagerank,12.5,62.5
+Graph algorithms,"Cliques, independent sets, and coloring",Louvain,25.0,50.0
+Graph algorithms,"Cliques, independent sets, and coloring",Label Propagation,25.0,50.0
+Graph algorithms,"Cliques, independent sets, and coloring",Pagerank,25.0,50.0
+Graph algorithms,Covering and domination,Louvain,14.285714285714286,42.85714285714286
+Graph algorithms,Covering and domination,Label Propagation,14.285714285714286,42.85714285714286
+Graph algorithms,Covering and domination,Pagerank,14.285714285714286,42.85714285714286
+Graph algorithms,Tours,Louvain,10.0,40.0
+Graph algorithms,Tours,Label Propagation,10.0,40.0
+Graph algorithms,Tours,Pagerank,10.0,40.0
+Graph algorithms,Matching,Louvain,37.5,37.5
+Graph algorithms,Matching,Label Propagation,37.5,37.5
+Graph algorithms,Matching,Pagerank,25.0,37.5
+Graph algorithms,Network flow,Louvain,15.384615384615385,38.46153846153846
+Graph algorithms,Network flow,Label Propagation,15.384615384615385,38.46153846153846
+Graph algorithms,Network flow,Pagerank,15.384615384615385,38.46153846153846
+Graph algorithms,Graph drawing and planar graphs,Louvain,50.0,75.0
+Graph algorithms,Graph drawing and planar graphs,Label Propagation,50.0,75.0
+Graph algorithms,Graph drawing and planar graphs,Pagerank,50.0,75.0
+Graph algorithms,Special classes of graphs,Louvain,25.0,37.5
+Graph algorithms,Special classes of graphs,Label Propagation,25.0,37.5
+Graph algorithms,Special classes of graphs,Pagerank,12.5,37.5
+Graph algorithms,Graph isomorphism,Louvain,20.0,60.0
+Graph algorithms,Graph isomorphism,Label Propagation,20.0,60.0
+Graph algorithms,Graph isomorphism,Pagerank,10.0,60.0
+Graph drawing,Undirected graph layouts,Louvain,20.0,40.0
+Graph drawing,Undirected graph layouts,Label Propagation,20.0,40.0
+Graph drawing,Undirected graph layouts,Pagerank,20.0,40.0
+Graph drawing,Directed graph layouts,Louvain,20.0,20.0
+Graph drawing,Directed graph layouts,Label Propagation,20.0,20.0
+Graph drawing,Directed graph layouts,Pagerank,20.0,20.0
+Graph drawing,Tree layouts,Louvain,12.5,12.5
+Graph drawing,Tree layouts,Label Propagation,12.5,12.5
+Graph drawing,Tree layouts,Pagerank,12.5,12.5
+Graph drawing,Application-specific graph drawings,Louvain,60.0,100.0
+Graph drawing,Application-specific graph drawings,Label Propagation,60.0,100.0
+Graph drawing,Application-specific graph drawings,Pagerank,20.0,100.0
+Graph drawing,Quality criteria,Louvain,12.5,37.5
+Graph drawing,Quality criteria,Label Propagation,12.5,37.5
+Graph drawing,Quality criteria,Pagerank,12.5,37.5
+Graph drawing,Planar graphs,Louvain,12.5,12.5
+Graph drawing,Planar graphs,Label Propagation,12.5,12.5
+Graph drawing,Planar graphs,Pagerank,12.5,12.5
+Graph drawing,Planarity testing,Louvain,10.0,40.0
+Graph drawing,Planarity testing,Label Propagation,10.0,40.0
+Graph drawing,Planarity testing,Pagerank,10.0,40.0
+Graph drawing,Classes of planar graphs,Louvain,7.142857142857143,35.71428571428571
+Graph drawing,Classes of planar graphs,Label Propagation,7.142857142857143,35.71428571428571
+Graph drawing,Classes of planar graphs,Pagerank,7.142857142857143,35.71428571428571
+Graph drawing,Beyond planarity,Louvain,12.5,50.0
+Graph drawing,Beyond planarity,Label Propagation,12.5,50.0
+Graph drawing,Beyond planarity,Pagerank,12.5,50.0
+Graph drawing,Contact and intersection representations,Louvain,16.666666666666668,66.66666666666667
+Graph drawing,Contact and intersection representations,Label Propagation,16.666666666666668,66.66666666666667
+Graph drawing,Contact and intersection representations,Pagerank,16.666666666666668,66.66666666666667
+Graph drawing,Other geometric representations of graphs,Louvain,25.0,50.0
+Graph drawing,Other geometric representations of graphs,Label Propagation,25.0,50.0
+Graph drawing,Other geometric representations of graphs,Pagerank,12.5,50.0
+Graph drawing,Computer representations of graphs and drawings,Louvain,12.5,25.0
+Graph drawing,Computer representations of graphs and drawings,Label Propagation,12.5,25.0
+Graph drawing,Computer representations of graphs and drawings,Pagerank,12.5,25.0
+Graph drawing,Algorithmic components,Louvain,16.666666666666668,16.666666666666657
+Graph drawing,Algorithmic components,Label Propagation,16.666666666666668,16.666666666666657
+Graph drawing,Algorithmic components,Pagerank,16.666666666666668,16.666666666666657
+Fundamental data structures,Sequences,Louvain,14.285714285714286,57.142857142857146
+Fundamental data structures,Sequences,Label Propagation,14.285714285714286,57.142857142857146
+Fundamental data structures,Sequences,Pagerank,7.142857142857143,57.142857142857146
+Fundamental data structures,Dictionaries,Louvain,16.666666666666668,33.33333333333334
+Fundamental data structures,Dictionaries,Label Propagation,16.666666666666668,33.33333333333334
+Fundamental data structures,Dictionaries,Pagerank,16.666666666666668,33.33333333333334
+Fundamental data structures,Sets,Louvain,40.0,70.0
+Fundamental data structures,Sets,Label Propagation,40.0,70.0
+Fundamental data structures,Sets,Pagerank,20.0,70.0
+Fundamental data structures,Priority queues,Louvain,18.75,50.0
+Fundamental data structures,Priority queues,Label Propagation,18.75,50.0
+Fundamental data structures,Priority queues,Pagerank,6.25,50.0
+Fundamental data structures,Successors and neighbors,Louvain,28.571428571428573,57.142857142857146
+Fundamental data structures,Successors and neighbors,Label Propagation,14.285714285714286,57.142857142857146
+Fundamental data structures,Successors and neighbors,Pagerank,14.285714285714286,57.142857142857146
+Matroid theory,Basic concepts,Louvain,25.0,25.0
+Matroid theory,Basic concepts,Label Propagation,25.0,25.0
+Matroid theory,Basic concepts,Pagerank,25.0,25.0
+Matroid theory,Examples,Louvain,37.5,62.5
+Matroid theory,Examples,Label Propagation,37.5,62.5
+Matroid theory,Examples,Pagerank,25.0,62.5
+Matroid theory,Matroids from linear algebra,Louvain,75.0,75.0
+Matroid theory,Matroids from linear algebra,Label Propagation,75.0,75.0
+Matroid theory,Matroids from linear algebra,Pagerank,50.0,75.0
+Matroid theory,Matroids from abstract algebra,Louvain,30.0,70.0
+Matroid theory,Matroids from abstract algebra,Label Propagation,30.0,70.0
+Matroid theory,Matroids from abstract algebra,Pagerank,10.0,70.0
+Matroid theory,Matroids from graphs,Louvain,33.333333333333336,33.33333333333334
+Matroid theory,Matroids from graphs,Label Propagation,33.333333333333336,33.33333333333334
+Matroid theory,Matroids from graphs,Pagerank,33.333333333333336,33.33333333333334
+Matroid theory,Additional constructions of matroids,Louvain,33.333333333333336,66.66666666666667
+Matroid theory,Additional constructions of matroids,Label Propagation,33.333333333333336,66.66666666666667
+Matroid theory,Additional constructions of matroids,Pagerank,33.333333333333336,66.66666666666667
+Matroid theory,Structures equivalent to matroids,Louvain,25.0,25.0
+Matroid theory,Structures equivalent to matroids,Label Propagation,25.0,25.0
+Matroid theory,Structures equivalent to matroids,Pagerank,25.0,25.0
+Matroid theory,Oriented matroids,Louvain,12.5,25.0
+Matroid theory,Oriented matroids,Label Propagation,12.5,25.0
+Matroid theory,Oriented matroids,Pagerank,12.5,25.0
+Matroid theory,Algorithmic problems on matroids,Louvain,10.0,80.0
+Matroid theory,Algorithmic problems on matroids,Label Propagation,10.0,80.0
+Matroid theory,Algorithmic problems on matroids,Pagerank,10.0,80.0
+Matroid theory,Matroid generalizations of graph theory,Louvain,20.0,40.0
+Matroid theory,Matroid generalizations of graph theory,Label Propagation,20.0,40.0
+Matroid theory,Matroid generalizations of graph theory,Pagerank,20.0,40.0
+Matroid theory,Matroid generalizations of discrete geometry,Louvain,33.333333333333336,33.33333333333334
+Matroid theory,Matroid generalizations of discrete geometry,Label Propagation,33.333333333333336,33.33333333333334
+Matroid theory,Matroid generalizations of discrete geometry,Pagerank,33.333333333333336,33.33333333333334
+Matroid theory,Matroid polynomials,Louvain,14.285714285714286,14.285714285714292
+Matroid theory,Matroid polynomials,Label Propagation,14.285714285714286,14.285714285714292
+Matroid theory,Matroid polynomials,Pagerank,14.285714285714286,14.285714285714292
+Perfect graphs,Background and definitions,Louvain,16.666666666666668,50.0
+Perfect graphs,Background and definitions,Label Propagation,16.666666666666668,50.0
+Perfect graphs,Background and definitions,Pagerank,16.666666666666668,50.0
+Perfect graphs,Structure theorems and perfection-preserving graph operations,Louvain,14.285714285714286,42.85714285714286
+Perfect graphs,Structure theorems and perfection-preserving graph operations,Label Propagation,14.285714285714286,42.85714285714286
+Perfect graphs,Structure theorems and perfection-preserving graph operations,Pagerank,14.285714285714286,42.85714285714286
+Perfect graphs,"Bipartite graphs, their line graphs, and their matchings",Louvain,12.5,12.5
+Perfect graphs,"Bipartite graphs, their line graphs, and their matchings",Label Propagation,12.5,12.5
+Perfect graphs,"Bipartite graphs, their line graphs, and their matchings",Pagerank,12.5,12.5
+Perfect graphs,Chains and antichains in partial orders,Louvain,8.333333333333334,58.33333333333333
+Perfect graphs,Chains and antichains in partial orders,Label Propagation,8.333333333333334,58.33333333333333
+Perfect graphs,Chains and antichains in partial orders,Pagerank,8.333333333333334,58.33333333333333
+Perfect graphs,Chordal and interval graphs,Louvain,57.142857142857146,85.71428571428572
+Perfect graphs,Chordal and interval graphs,Label Propagation,57.142857142857146,85.71428571428572
+Perfect graphs,Chordal and interval graphs,Pagerank,14.285714285714286,85.71428571428572

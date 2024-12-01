@@ -1,0 +1,157 @@
+<html>
+<head>
+    <title>Sigma.js Graph Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.parsers.json.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.layout.forceAtlas2.min.js"></script>
+</head>
+<body>
+  <h1>Test Network Building</h1>
+    <div id="graph-container" style="width: 100%; height: 600px;"></div>
+    <script>
+      function formatGraphData(rawData) {
+        const formattedGraph = {
+            nodes: [],
+            edges: []
+        };
+    
+        // Create nodes
+        rawData.nodes.forEach((node) => {
+            formattedGraph.nodes.push({
+                id: node.id,
+                label: node.id.split('/').pop().replace(/_/g, ' '),
+                x: Math.random(),
+                y: Math.random(),
+                size: 5 + Math.random() * 5,
+                color: '#666'  // Default color
+            });
+        });
+    
+        // Create edges
+        rawData.links.forEach((link, index) => {
+            formattedGraph.edges.push({
+                id: `e${index}`,
+                source: link.source,
+                target: link.target,
+                color: '#999'  // Default color
+            });
+        });
+    
+        return formattedGraph;
+      }
+
+      fetch('/static/visualisation_data_graph.json')
+        .then(response => response.json())
+        .then(data => {
+            const formattedData = formatGraphData(data);
+            var s = new sigma({
+                graph: formattedData,
+                container: 'graph-container',
+                settings: {
+                    defaultNodeColor: '#666',
+                    defaultEdgeColor: '#999',
+                    drawLabels: true
+                }
+            });
+            s.startForceAtlas2();
+            setTimeout(() => s.stopForceAtlas2(), 10000);  // Run for 10 seconds
+
+            function calculateBoundingBox(nodes) {
+                let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+                nodes.forEach(function(n) {
+                    let node = s.graph.nodes(n);
+                    minX = Math.min(minX, node.x);
+                    maxX = Math.max(maxX, node.x);
+                    minY = Math.min(minY, node.y);
+                    maxY = Math.max(maxY, node.y);
+                });
+                return {minX, maxX, minY, maxY};
+            }
+
+            // Function to get neighboring nodes
+            function getNeighbors(nodeId) {
+                var neighbors = {};
+                s.graph.edges().forEach(function(e) {
+                    if (e.source === nodeId) {
+                        neighbors[e.target] = e.target;
+                    }
+                    if (e.target === nodeId) {
+                        neighbors[e.source] = e.source;
+                    }
+                });
+                return neighbors;
+            }
+
+            s.bind('clickNode', function(e) { // FIXME
+                var nodeId = e.data.node.id;
+
+                nodeId = nodeId.replace("https://en.wikipedia.org/wiki/", "")
+                
+                // Make an AJAX request to get community information
+                // Community information is a json dump from python backend from a networkx graph
+                fetch(`/get_community/${nodeId}`)
+                  .then(response => response.json())
+                  .then(data => {
+                    const communityFormattedData = formatGraphData(data);
+                    const communityNodes = new Set(communityFormattedData.nodes.map(item => item.id));
+                    
+                    s.graph.nodes().forEach(function(n) {
+                      if (communityNodes.has(n.id)) {
+                        n.color = '#f00';  // Highlight color for community members
+                        n.size = n.id === nodeId ? 10 : 7;  // Make selected node larger
+                      } else {
+                        n.color = '#ddd';  // Faded color
+                        n.size = 3;  // Smaller size for nodes outside the community
+                      }
+                    });
+              
+                    s.graph.edges().forEach(function(e) {
+                      if (communityNodes.has(e.source) && communityNodes.has(e.target)) {
+                        e.color = '#f00';  // Highlight color
+                        e.size = 2;  // Thicker edges for connections within community
+                      } else {
+                        e.color = '#eee';  // Faded color
+                        e.size = 0.5;  // Thinner edges for connections outside community
+                      }
+                    });
+              
+                    // Center the camera on the selected node
+
+                    var selectedNode = s.graph.nodes("https://en.wikipedia.org/wiki/".concat(nodeId));
+                    sigma.misc.animation.camera(
+                      s.camera,
+                      { x: selectedNode.x, y: selectedNode.y },
+                      { duration: 300 }
+                    );
+              
+                    // Force redraw
+                    s.refresh();
+                  })
+                  .catch(error => console.error('Error:', error));
+              }); // FIXME
+
+            s.bind('doubleClickStage', function(e) {
+              // Reset all nodes and edges to their original state
+              s.graph.nodes().forEach(function(n) {
+                  n.color = '#666';
+                  n.size = 5;
+              });
+              s.graph.edges().forEach(function(e) {
+                  e.color = '#999';
+                  e.size = 1;
+              });
+          
+              // Reset the camera position
+              sigma.misc.animation.camera(
+                  s.camera,
+                  {x: 0, y: 0, ratio: 1},
+                  {duration: 300}
+              );
+          
+              s.refresh();
+          });
+        })
+        .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>

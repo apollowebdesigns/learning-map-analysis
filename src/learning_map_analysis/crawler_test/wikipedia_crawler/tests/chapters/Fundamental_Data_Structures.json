@@ -1,0 +1,288 @@
+{
+    "Introduction": {
+        "Abstract data type": {
+            "href": "https://en.wikipedia.org/wiki/Abstract_data_type",
+            "book": "Fundamental Data Structures"
+        },
+        "Data structure": {
+            "href": "https://en.wikipedia.org/wiki/Data_structure",
+            "book": "Fundamental Data Structures"
+        },
+        "Analysis of algorithms": {
+            "href": "https://en.wikipedia.org/wiki/Analysis_of_algorithms",
+            "book": "Fundamental Data Structures"
+        },
+        "Amortized analysis": {
+            "href": "https://en.wikipedia.org/wiki/Amortized_analysis",
+            "book": "Fundamental Data Structures"
+        },
+        "Accounting method": {
+            "href": "https://en.wikipedia.org/wiki/Accounting_method_(computer_science)",
+            "book": "Fundamental Data Structures"
+        },
+        "Potential method": {
+            "href": "https://en.wikipedia.org/wiki/Potential_method",
+            "book": "Fundamental Data Structures"
+        }
+    },
+    "Sequences": {
+        "Array data type": {
+            "href": "https://en.wikipedia.org/wiki/Array_data_type",
+            "book": "Fundamental Data Structures"
+        },
+        "Array data structure": {
+            "href": "https://en.wikipedia.org/wiki/Array_data_structure",
+            "book": "Fundamental Data Structures"
+        },
+        "Dynamic array": {
+            "href": "https://en.wikipedia.org/wiki/Dynamic_array",
+            "book": "Fundamental Data Structures"
+        },
+        "Linked list": {
+            "href": "https://en.wikipedia.org/wiki/Linked_list",
+            "book": "Fundamental Data Structures"
+        },
+        "Doubly linked list": {
+            "href": "https://en.wikipedia.org/wiki/Doubly_linked_list",
+            "book": "Fundamental Data Structures"
+        },
+        "Stack (abstract data type)": {
+            "href": "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)",
+            "book": "Fundamental Data Structures"
+        },
+        "Queue (abstract data type)": {
+            "href": "https://en.wikipedia.org/wiki/Queue_(abstract_data_type)",
+            "book": "Fundamental Data Structures"
+        },
+        "Double-ended queue": {
+            "href": "https://en.wikipedia.org/wiki/Double-ended_queue",
+            "book": "Fundamental Data Structures"
+        },
+        "Circular buffer": {
+            "href": "https://en.wikipedia.org/wiki/Circular_buffer",
+            "book": "Fundamental Data Structures"
+        }
+    },
+    "Dictionaries": {
+        "Associative array": {
+            "href": "https://en.wikipedia.org/wiki/Associative_array",
+            "book": "Fundamental Data Structures"
+        },
+        "Association list": {
+            "href": "https://en.wikipedia.org/wiki/Association_list",
+            "book": "Fundamental Data Structures"
+        },
+        "Hash table": {
+            "href": "https://en.wikipedia.org/wiki/Hash_table",
+            "book": "Fundamental Data Structures"
+        },
+        "Linear probing": {
+            "href": "https://en.wikipedia.org/wiki/Linear_probing",
+            "book": "Fundamental Data Structures"
+        },
+        "Quadratic probing": {
+            "href": "https://en.wikipedia.org/wiki/Quadratic_probing",
+            "book": "Fundamental Data Structures"
+        },
+        "Double hashing": {
+            "href": "https://en.wikipedia.org/wiki/Double_hashing",
+            "book": "Fundamental Data Structures"
+        },
+        "Cuckoo hashing": {
+            "href": "https://en.wikipedia.org/wiki/Cuckoo_hashing",
+            "book": "Fundamental Data Structures"
+        },
+        "Hopscotch hashing": {
+            "href": "https://en.wikipedia.org/wiki/Hopscotch_hashing",
+            "book": "Fundamental Data Structures"
+        },
+        "Hash function": {
+            "href": "https://en.wikipedia.org/wiki/Hash_function",
+            "book": "Fundamental Data Structures"
+        },
+        "Perfect hash function": {
+            "href": "https://en.wikipedia.org/wiki/Perfect_hash_function",
+            "book": "Fundamental Data Structures"
+        },
+        "Universal hashing": {
+            "href": "https://en.wikipedia.org/wiki/Universal_hashing",
+            "book": "Fundamental Data Structures"
+        },
+        "K-independent hashing": {
+            "href": "https://en.wikipedia.org/wiki/K-independent_hashing",
+            "book": "Fundamental Data Structures"
+        },
+        "Tabulation hashing": {
+            "href": "https://en.wikipedia.org/wiki/Tabulation_hashing",
+            "book": "Fundamental Data Structures"
+        },
+        "Cryptographic hash function": {
+            "href": "https://en.wikipedia.org/wiki/Cryptographic_hash_function",
+            "book": "Fundamental Data Structures"
+        }
+    },
+    "Sets": {
+        "Set (abstract data type)": {
+            "href": "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+            "book": "Fundamental Data Structures"
+        },
+        "Bit array": {
+            "href": "https://en.wikipedia.org/wiki/Bit_array",
+            "book": "Fundamental Data Structures"
+        },
+        "Bloom filter": {
+            "href": "https://en.wikipedia.org/wiki/Bloom_filter",
+            "book": "Fundamental Data Structures"
+        },
+        "MinHash": {
+            "href": "https://en.wikipedia.org/wiki/MinHash",
+            "book": "Fundamental Data Structures"
+        },
+        "Disjoint-set data structure": {
+            "href": "https://en.wikipedia.org/wiki/Disjoint-set_data_structure",
+            "book": "Fundamental Data Structures"
+        },
+        "Partition refinement": {
+            "href": "https://en.wikipedia.org/wiki/Partition_refinement",
+            "book": "Fundamental Data Structures"
+        }
+    },
+    "Priority queues": {
+        "Priority queue": {
+            "href": "https://en.wikipedia.org/wiki/Priority_queue",
+            "book": "Fundamental Data Structures"
+        },
+        "Bucket queue": {
+            "href": "https://en.wikipedia.org/wiki/Bucket_queue",
+            "book": "Fundamental Data Structures"
+        },
+        "Heap (data structure)": {
+            "href": "https://en.wikipedia.org/wiki/Heap_(data_structure)",
+            "book": "Fundamental Data Structures"
+        },
+        "Binary heap": {
+            "href": "https://en.wikipedia.org/wiki/Binary_heap",
+            "book": "Fundamental Data Structures"
+        },
+        "d-ary heap": {
+            "href": "https://en.wikipedia.org/wiki/D-ary_heap",
+            "book": "Fundamental Data Structures"
+        },
+        "Binomial heap": {
+            "href": "https://en.wikipedia.org/wiki/Binomial_heap",
+            "book": "Fundamental Data Structures"
+        },
+        "Fibonacci heap": {
+            "href": "https://en.wikipedia.org/wiki/Fibonacci_heap",
+            "book": "Fundamental Data Structures"
+        },
+        "Pairing heap": {
+            "href": "https://en.wikipedia.org/wiki/Pairing_heap",
+            "book": "Fundamental Data Structures"
+        },
+        "Double-ended priority queue": {
+            "href": "https://en.wikipedia.org/wiki/Double-ended_priority_queue",
+            "book": "Fundamental Data Structures"
+        },
+        "Soft heap": {
+            "href": "https://en.wikipedia.org/wiki/Soft_heap",
+            "book": "Fundamental Data Structures"
+        }
+    },
+    "Successors and neighbors": {
+        "Binary search algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Binary_search_algorithm",
+            "book": "Fundamental Data Structures"
+        },
+        "Binary search tree": {
+            "href": "https://en.wikipedia.org/wiki/Binary_search_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Random binary tree": {
+            "href": "https://en.wikipedia.org/wiki/Random_binary_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Tree rotation": {
+            "href": "https://en.wikipedia.org/wiki/Tree_rotation",
+            "book": "Fundamental Data Structures"
+        },
+        "Self-balancing binary search tree": {
+            "href": "https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Treap": {
+            "href": "https://en.wikipedia.org/wiki/Treap",
+            "book": "Fundamental Data Structures"
+        },
+        "AVL tree": {
+            "href": "https://en.wikipedia.org/wiki/AVL_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Red\u2013black tree": {
+            "href": "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "WAVL tree": {
+            "href": "https://en.wikipedia.org/wiki/WAVL_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Scapegoat tree": {
+            "href": "https://en.wikipedia.org/wiki/Scapegoat_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Splay tree": {
+            "href": "https://en.wikipedia.org/wiki/Splay_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Tango tree": {
+            "href": "https://en.wikipedia.org/wiki/Tango_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Skip list": {
+            "href": "https://en.wikipedia.org/wiki/Skip_list",
+            "book": "Fundamental Data Structures"
+        },
+        "B-tree": {
+            "href": "https://en.wikipedia.org/wiki/B-tree",
+            "book": "Fundamental Data Structures"
+        },
+        "B+ tree": {
+            "href": "https://en.wikipedia.org/wiki/B%2B_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Rope": {
+            "href": "https://en.wikipedia.org/wiki/Rope_(data_structure)",
+            "book": "Fundamental Data Structures"
+        }
+    },
+    "Integer and string searching": {
+        "Trie": {
+            "href": "https://en.wikipedia.org/wiki/Trie",
+            "book": "Fundamental Data Structures"
+        },
+        "Radix tree": {
+            "href": "https://en.wikipedia.org/wiki/Radix_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Suffix tree": {
+            "href": "https://en.wikipedia.org/wiki/Suffix_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Suffix array": {
+            "href": "https://en.wikipedia.org/wiki/Suffix_array",
+            "book": "Fundamental Data Structures"
+        },
+        "Suffix automaton": {
+            "href": "https://en.wikipedia.org/wiki/Suffix_automaton",
+            "book": "Fundamental Data Structures"
+        },
+        "Van Emde Boas tree": {
+            "href": "https://en.wikipedia.org/wiki/Van_Emde_Boas_tree",
+            "book": "Fundamental Data Structures"
+        },
+        "Fusion tree": {
+            "href": "https://en.wikipedia.org/wiki/Fusion_tree",
+            "book": "Fundamental Data Structures"
+        }
+    }
+}

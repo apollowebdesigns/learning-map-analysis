@@ -1,0 +1,564 @@
+{
+    "Introduction": {
+        "Graph theory": {
+            "href": "https://en.wikipedia.org/wiki/Graph_theory",
+            "book": "Graph Algorithms"
+        },
+        "Glossary of graph theory": {
+            "href": "https://en.wikipedia.org/wiki/Glossary_of_graph_theory",
+            "book": "Graph Algorithms"
+        },
+        "Undirected graphs": {
+            "href": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "book": "Graph Algorithms"
+        },
+        "Directed graphs": {
+            "href": "https://en.wikipedia.org/wiki/Directed_graph",
+            "book": "Graph Algorithms"
+        },
+        "Directed acyclic graphs": {
+            "href": "https://en.wikipedia.org/wiki/Directed_acyclic_graph",
+            "book": "Graph Algorithms"
+        },
+        "Computer representations of graphs": {
+            "href": "https://en.wikipedia.org/wiki/Graph_(abstract_data_type)",
+            "book": "Graph Algorithms"
+        },
+        "Adjacency list": {
+            "href": "https://en.wikipedia.org/wiki/Adjacency_list",
+            "book": "Graph Algorithms"
+        },
+        "Adjacency matrix": {
+            "href": "https://en.wikipedia.org/wiki/Adjacency_matrix",
+            "book": "Graph Algorithms"
+        },
+        "Implicit graph": {
+            "href": "https://en.wikipedia.org/wiki/Implicit_graph",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Graph exploration and vertex ordering": {
+        "Depth-first search": {
+            "href": "https://en.wikipedia.org/wiki/Depth-first_search",
+            "book": "Graph Algorithms"
+        },
+        "Breadth-first search": {
+            "href": "https://en.wikipedia.org/wiki/Breadth-first_search",
+            "book": "Graph Algorithms"
+        },
+        "Lexicographic breadth-first search": {
+            "href": "https://en.wikipedia.org/wiki/Lexicographic_breadth-first_search",
+            "book": "Graph Algorithms"
+        },
+        "Iterative deepening depth-first search": {
+            "href": "https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search",
+            "book": "Graph Algorithms"
+        },
+        "Topological sorting": {
+            "href": "https://en.wikipedia.org/wiki/Topological_sorting",
+            "book": "Graph Algorithms"
+        },
+        "Application: Dependency graphs": {
+            "href": "https://en.wikipedia.org/wiki/Dependency_graph",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Connectivity of undirected graphs": {
+        "Connected components": {
+            "href": "https://en.wikipedia.org/wiki/Component_(graph_theory)",
+            "book": "Graph Algorithms"
+        },
+        "Edge connectivity": {
+            "href": "https://en.wikipedia.org/wiki/K-edge-connected_graph",
+            "book": "Graph Algorithms"
+        },
+        "Vertex connectivity": {
+            "href": "https://en.wikipedia.org/wiki/K-vertex-connected_graph",
+            "book": "Graph Algorithms"
+        },
+        "Menger's theorems on edge and vertex connectivity": {
+            "href": "https://en.wikipedia.org/wiki/Menger%27s_theorem",
+            "book": "Graph Algorithms"
+        },
+        "Ear decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Ear_decomposition",
+            "book": "Graph Algorithms"
+        },
+        "Algorithms for 2-edge-connected components": {
+            "href": "https://en.wikipedia.org/wiki/Bridge_(graph_theory)",
+            "book": "Graph Algorithms"
+        },
+        "Algorithms for 2-vertex-connected components": {
+            "href": "https://en.wikipedia.org/wiki/Biconnected_component",
+            "book": "Graph Algorithms"
+        },
+        "Algorithms for 3-vertex-connected components": {
+            "href": "https://en.wikipedia.org/wiki/SPQR_tree",
+            "book": "Graph Algorithms"
+        },
+        "Karger's algorithm for general vertex connectivity": {
+            "href": "https://en.wikipedia.org/wiki/Karger%27s_algorithm",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Connectivity of directed graphs": {
+        "Strongly connected components": {
+            "href": "https://en.wikipedia.org/wiki/Strongly_connected_component",
+            "book": "Graph Algorithms"
+        },
+        "Tarjan's strongly connected components algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Path-based strong component algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Path-based_strong_component_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Kosaraju's strongly connected components algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Reachability": {
+            "href": "https://en.wikipedia.org/wiki/Reachability",
+            "book": "Graph Algorithms"
+        },
+        "Transitive closure": {
+            "href": "https://en.wikipedia.org/wiki/Transitive_closure",
+            "book": "Graph Algorithms"
+        },
+        "Transitive reduction": {
+            "href": "https://en.wikipedia.org/wiki/Transitive_reduction",
+            "book": "Graph Algorithms"
+        },
+        "Application: 2-satisfiability": {
+            "href": "https://en.wikipedia.org/wiki/2-satisfiability",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Shortest paths": {
+        "Shortest path problem": {
+            "href": "https://en.wikipedia.org/wiki/Shortest_path_problem",
+            "book": "Graph Algorithms"
+        },
+        "Dijkstra's algorithm for single-source shortest paths with positive edge lengths": {
+            "href": "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Bellman\u2013Ford algorithm for single-source shortest paths allowing negative edge lengths": {
+            "href": "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Johnson's algorithm for all-pairs shortest paths in sparse graphs": {
+            "href": "https://en.wikipedia.org/wiki/Johnson%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Floyd\u2013Warshall algorithm for all-pairs shortest paths in dense graphs": {
+            "href": "https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Suurballe's algorithm for two shortest disjoint paths": {
+            "href": "https://en.wikipedia.org/wiki/Suurballe%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Bidirectional search": {
+            "href": "https://en.wikipedia.org/wiki/Bidirectional_search",
+            "book": "Graph Algorithms"
+        },
+        "A* search algorithm": {
+            "href": "https://en.wikipedia.org/wiki/A*_search_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Longest path problem": {
+            "href": "https://en.wikipedia.org/wiki/Longest_path_problem",
+            "book": "Graph Algorithms"
+        },
+        "Widest path problem": {
+            "href": "https://en.wikipedia.org/wiki/Widest_path_problem",
+            "book": "Graph Algorithms"
+        },
+        "Canadian traveller problem": {
+            "href": "https://en.wikipedia.org/wiki/Canadian_traveller_problem",
+            "book": "Graph Algorithms"
+        },
+        "K shortest path routing": {
+            "href": "https://en.wikipedia.org/wiki/K_shortest_path_routing",
+            "book": "Graph Algorithms"
+        },
+        "Application: Centrality analysis of social networks": {
+            "href": "https://en.wikipedia.org/wiki/Centrality",
+            "book": "Graph Algorithms"
+        },
+        "Application: Schulze voting system": {
+            "href": "https://en.wikipedia.org/wiki/Schulze_method",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Minimum spanning trees": {
+        "Minimum spanning tree": {
+            "href": "https://en.wikipedia.org/wiki/Minimum_spanning_tree",
+            "book": "Graph Algorithms"
+        },
+        "Bor\u016fvka's algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Kruskal's algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Prim's algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Prim%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Edmonds's algorithm for directed minimum spanning trees": {
+            "href": "https://en.wikipedia.org/wiki/Edmonds%27_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Degree-constrained spanning tree": {
+            "href": "https://en.wikipedia.org/wiki/Degree-constrained_spanning_tree",
+            "book": "Graph Algorithms"
+        },
+        "Maximum-leaf spanning tree": {
+            "href": "https://en.wikipedia.org/wiki/Connected_dominating_set",
+            "book": "Graph Algorithms"
+        },
+        "K-minimum spanning tree": {
+            "href": "https://en.wikipedia.org/wiki/K-minimum_spanning_tree",
+            "book": "Graph Algorithms"
+        },
+        "Capacitated minimum spanning tree": {
+            "href": "https://en.wikipedia.org/wiki/Capacitated_minimum_spanning_tree",
+            "book": "Graph Algorithms"
+        },
+        "Application: Single-linkage clustering": {
+            "href": "https://en.wikipedia.org/wiki/Single-linkage_clustering",
+            "book": "Graph Algorithms"
+        },
+        "Application: Maze generation": {
+            "href": "https://en.wikipedia.org/wiki/Maze_generation_algorithm",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Cliques, independent sets, and coloring": {
+        "Clique problem": {
+            "href": "https://en.wikipedia.org/wiki/Clique_problem",
+            "book": "Graph Algorithms"
+        },
+        "Bron\u2013Kerbosch algorithm for listing all maximal cliques": {
+            "href": "https://en.wikipedia.org/wiki/Bron%E2%80%93Kerbosch_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Independent set problem": {
+            "href": "https://en.wikipedia.org/wiki/Independent_set_(graph_theory)",
+            "book": "Graph Algorithms"
+        },
+        "Maximal independent set": {
+            "href": "https://en.wikipedia.org/wiki/Maximal_independent_set",
+            "book": "Graph Algorithms"
+        },
+        "Graph coloring": {
+            "href": "https://en.wikipedia.org/wiki/Graph_coloring",
+            "book": "Graph Algorithms"
+        },
+        "Bipartite graph": {
+            "href": "https://en.wikipedia.org/wiki/Bipartite_graph",
+            "book": "Graph Algorithms"
+        },
+        "Greedy coloring": {
+            "href": "https://en.wikipedia.org/wiki/Greedy_coloring",
+            "book": "Graph Algorithms"
+        },
+        "Application: Register allocation": {
+            "href": "https://en.wikipedia.org/wiki/Register_allocation",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Covering and domination": {
+        "Vertex cover": {
+            "href": "https://en.wikipedia.org/wiki/Vertex_cover",
+            "book": "Graph Algorithms"
+        },
+        "Dominating set": {
+            "href": "https://en.wikipedia.org/wiki/Dominating_set",
+            "book": "Graph Algorithms"
+        },
+        "Feedback vertex set": {
+            "href": "https://en.wikipedia.org/wiki/Feedback_vertex_set",
+            "book": "Graph Algorithms"
+        },
+        "Feedback arc set": {
+            "href": "https://en.wikipedia.org/wiki/Feedback_arc_set",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Tours": {
+        "Eulerian path": {
+            "href": "https://en.wikipedia.org/wiki/Eulerian_path",
+            "book": "Graph Algorithms"
+        },
+        "Hamiltonian path": {
+            "href": "https://en.wikipedia.org/wiki/Hamiltonian_path",
+            "book": "Graph Algorithms"
+        },
+        "Hamiltonian path problem": {
+            "href": "https://en.wikipedia.org/wiki/Hamiltonian_path_problem",
+            "book": "Graph Algorithms"
+        },
+        "Travelling salesman problem": {
+            "href": "https://en.wikipedia.org/wiki/Travelling_salesman_problem",
+            "book": "Graph Algorithms"
+        },
+        "Bottleneck traveling salesman problem": {
+            "href": "https://en.wikipedia.org/wiki/Bottleneck_traveling_salesman_problem",
+            "book": "Graph Algorithms"
+        },
+        "Christofides' heuristic for the TSP": {
+            "href": "https://en.wikipedia.org/wiki/Christofides_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Chinese postman problem": {
+            "href": "https://en.wikipedia.org/wiki/Chinese_postman_problem",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Matching": {
+        "Matching": {
+            "href": "https://en.wikipedia.org/wiki/Matching_(graph_theory)",
+            "book": "Graph Algorithms"
+        },
+        "Hopcroft\u2013Karp algorithm for maximum matching in bipartite graphs": {
+            "href": "https://en.wikipedia.org/wiki/Hopcroft%E2%80%93Karp_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Edmonds's algorithm for maximum matching in non-bipartite graphs": {
+            "href": "https://en.wikipedia.org/wiki/Blossom_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Assignment problem": {
+            "href": "https://en.wikipedia.org/wiki/Assignment_problem",
+            "book": "Graph Algorithms"
+        },
+        "Hungarian algorithm for the assignment problem": {
+            "href": "https://en.wikipedia.org/wiki/Hungarian_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "FKT algorithm for counting matchings in planar graphs": {
+            "href": "https://en.wikipedia.org/wiki/FKT_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Stable marriage problem": {
+            "href": "https://en.wikipedia.org/wiki/Stable_marriage_problem",
+            "book": "Graph Algorithms"
+        },
+        "Stable roommates problem": {
+            "href": "https://en.wikipedia.org/wiki/Stable_roommates_problem",
+            "book": "Graph Algorithms"
+        },
+        "Permanent": {
+            "href": "https://en.wikipedia.org/wiki/Permanent_(mathematics)",
+            "book": "Graph Algorithms"
+        },
+        "Computing the permanent": {
+            "href": "https://en.wikipedia.org/wiki/Computing_the_permanent",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Network flow": {
+        "Maximum flow problem": {
+            "href": "https://en.wikipedia.org/wiki/Maximum_flow_problem",
+            "book": "Graph Algorithms"
+        },
+        "Max-flow min-cut theorem": {
+            "href": "https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem",
+            "book": "Graph Algorithms"
+        },
+        "Ford\u2013Fulkerson algorithm for maximum flows": {
+            "href": "https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Edmonds\u2013Karp algorithm for maximum flows": {
+            "href": "https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Dinic's algorithm for maximum flows": {
+            "href": "https://en.wikipedia.org/wiki/Dinic%27s_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Push\u2013relabel maximum flow algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Push%E2%80%93relabel_maximum_flow_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Closure problem": {
+            "href": "https://en.wikipedia.org/wiki/Closure_problem",
+            "book": "Graph Algorithms"
+        },
+        "Minimum-cost flow problem": {
+            "href": "https://en.wikipedia.org/wiki/Minimum-cost_flow_problem",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Graph drawing and planar graphs": {
+        "Planar graph": {
+            "href": "https://en.wikipedia.org/wiki/Planar_graph",
+            "book": "Graph Algorithms"
+        },
+        "Dual graph": {
+            "href": "https://en.wikipedia.org/wiki/Dual_graph",
+            "book": "Graph Algorithms"
+        },
+        "F\u00e1ry's theorem": {
+            "href": "https://en.wikipedia.org/wiki/F%C3%A1ry%27s_theorem",
+            "book": "Graph Algorithms"
+        },
+        "Steinitz's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Steinitz%27s_theorem",
+            "book": "Graph Algorithms"
+        },
+        "Planarity testing": {
+            "href": "https://en.wikipedia.org/wiki/Planarity_testing",
+            "book": "Graph Algorithms"
+        },
+        "Left-right planarity test": {
+            "href": "https://en.wikipedia.org/wiki/Left-right_planarity_test",
+            "book": "Graph Algorithms"
+        },
+        "Graph drawing": {
+            "href": "https://en.wikipedia.org/wiki/Graph_drawing",
+            "book": "Graph Algorithms"
+        },
+        "Force-directed graph drawing": {
+            "href": "https://en.wikipedia.org/wiki/Force-directed_graph_drawing",
+            "book": "Graph Algorithms"
+        },
+        "Layered graph drawing": {
+            "href": "https://en.wikipedia.org/wiki/Layered_graph_drawing",
+            "book": "Graph Algorithms"
+        },
+        "Upward planar drawing": {
+            "href": "https://en.wikipedia.org/wiki/Upward_planar_drawing",
+            "book": "Graph Algorithms"
+        },
+        "Graph embedding": {
+            "href": "https://en.wikipedia.org/wiki/Graph_embedding",
+            "book": "Graph Algorithms"
+        },
+        "Application: Sociograms": {
+            "href": "https://en.wikipedia.org/wiki/Sociogram",
+            "book": "Graph Algorithms"
+        },
+        "Application: Concept maps": {
+            "href": "https://en.wikipedia.org/wiki/Concept_map",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Special classes of graphs": {
+        "Interval graph": {
+            "href": "https://en.wikipedia.org/wiki/Interval_graph",
+            "book": "Graph Algorithms"
+        },
+        "Chordal graph": {
+            "href": "https://en.wikipedia.org/wiki/Chordal_graph",
+            "book": "Graph Algorithms"
+        },
+        "Perfect graph": {
+            "href": "https://en.wikipedia.org/wiki/Perfect_graph",
+            "book": "Graph Algorithms"
+        },
+        "Intersection graph": {
+            "href": "https://en.wikipedia.org/wiki/Intersection_graph",
+            "book": "Graph Algorithms"
+        },
+        "Unit disk graph": {
+            "href": "https://en.wikipedia.org/wiki/Unit_disk_graph",
+            "book": "Graph Algorithms"
+        },
+        "Line graph": {
+            "href": "https://en.wikipedia.org/wiki/Line_graph",
+            "book": "Graph Algorithms"
+        },
+        "Claw-free graph": {
+            "href": "https://en.wikipedia.org/wiki/Claw-free_graph",
+            "book": "Graph Algorithms"
+        },
+        "Median graph": {
+            "href": "https://en.wikipedia.org/wiki/Median_graph",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Graph isomorphism": {
+        "Graph isomorphism": {
+            "href": "https://en.wikipedia.org/wiki/Graph_isomorphism",
+            "book": "Graph Algorithms"
+        },
+        "Graph isomorphism problem": {
+            "href": "https://en.wikipedia.org/wiki/Graph_isomorphism_problem",
+            "book": "Graph Algorithms"
+        },
+        "Graph canonization": {
+            "href": "https://en.wikipedia.org/wiki/Graph_canonization",
+            "book": "Graph Algorithms"
+        },
+        "Subgraph isomorphism problem": {
+            "href": "https://en.wikipedia.org/wiki/Subgraph_isomorphism_problem",
+            "book": "Graph Algorithms"
+        },
+        "Color-coding": {
+            "href": "https://en.wikipedia.org/wiki/Color-coding",
+            "book": "Graph Algorithms"
+        },
+        "Induced subgraph isomorphism problem": {
+            "href": "https://en.wikipedia.org/wiki/Induced_subgraph_isomorphism_problem",
+            "book": "Graph Algorithms"
+        },
+        "Maximum common induced subgraph": {
+            "href": "https://en.wikipedia.org/wiki/Maximum_common_induced_subgraph",
+            "book": "Graph Algorithms"
+        },
+        "Maximum common edge subgraph": {
+            "href": "https://en.wikipedia.org/wiki/Maximum_common_edge_subgraph",
+            "book": "Graph Algorithms"
+        }
+    },
+    "Graph decomposition and graph minors": {
+        "Graph partition": {
+            "href": "https://en.wikipedia.org/wiki/Graph_partition",
+            "book": "Graph Algorithms"
+        },
+        "Kernighan\u2013Lin algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Kernighan%E2%80%93Lin_algorithm",
+            "book": "Graph Algorithms"
+        },
+        "Tree decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Tree_decomposition",
+            "book": "Graph Algorithms"
+        },
+        "Branch-decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Branch-decomposition",
+            "book": "Graph Algorithms"
+        },
+        "Path decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Pathwidth",
+            "book": "Graph Algorithms"
+        },
+        "Planar separator theorem": {
+            "href": "https://en.wikipedia.org/wiki/Planar_separator_theorem",
+            "book": "Graph Algorithms"
+        },
+        "Graph minors": {
+            "href": "https://en.wikipedia.org/wiki/Graph_minor",
+            "book": "Graph Algorithms"
+        },
+        "Courcelle's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Courcelle%27s_theorem",
+            "book": "Graph Algorithms"
+        },
+        "Robertson\u2013Seymour theorem": {
+            "href": "https://en.wikipedia.org/wiki/Robertson%E2%80%93Seymour_theorem",
+            "book": "Graph Algorithms"
+        },
+        "Bidimensionality": {
+            "href": "https://en.wikipedia.org/wiki/Bidimensionality",
+            "book": "Graph Algorithms"
+        }
+    }
+}

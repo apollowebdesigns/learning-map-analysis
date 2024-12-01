@@ -1,0 +1,464 @@
+{
+    "Introduction": {
+        "Graph drawing": {
+            "href": "https://en.wikipedia.org/wiki/Graph_drawing",
+            "book": "Graph Drawing"
+        },
+        "Graph theory": {
+            "href": "https://en.wikipedia.org/wiki/Graph_theory",
+            "book": "Graph Drawing"
+        },
+        "Data and information visualization": {
+            "href": "https://en.wikipedia.org/wiki/Data_and_information_visualization",
+            "book": "Graph Drawing"
+        }
+    },
+    "Undirected graph layouts": {
+        "Undirected graph": {
+            "href": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "book": "Graph Drawing"
+        },
+        "Arc diagram": {
+            "href": "https://en.wikipedia.org/wiki/Arc_diagram",
+            "book": "Graph Drawing"
+        },
+        "Circular layout": {
+            "href": "https://en.wikipedia.org/wiki/Circular_layout",
+            "book": "Graph Drawing"
+        },
+        "Force-directed graph drawing": {
+            "href": "https://en.wikipedia.org/wiki/Force-directed_graph_drawing",
+            "book": "Graph Drawing"
+        },
+        "Spectral layout": {
+            "href": "https://en.wikipedia.org/wiki/Spectral_layout",
+            "book": "Graph Drawing"
+        },
+        "Stress majorization": {
+            "href": "https://en.wikipedia.org/wiki/Stress_majorization",
+            "book": "Graph Drawing"
+        }
+    },
+    "Directed graph layouts": {
+        "Directed graph": {
+            "href": "https://en.wikipedia.org/wiki/Directed_graph",
+            "book": "Graph Drawing"
+        },
+        "Directed acyclic graph": {
+            "href": "https://en.wikipedia.org/wiki/Directed_acyclic_graph",
+            "book": "Graph Drawing"
+        },
+        "Dominance drawing": {
+            "href": "https://en.wikipedia.org/wiki/Dominance_drawing",
+            "book": "Graph Drawing"
+        },
+        "Layered graph drawing": {
+            "href": "https://en.wikipedia.org/wiki/Layered_graph_drawing",
+            "book": "Graph Drawing"
+        },
+        "Upward planar drawing": {
+            "href": "https://en.wikipedia.org/wiki/Upward_planar_drawing",
+            "book": "Graph Drawing"
+        }
+    },
+    "Tree layouts": {
+        "Tree": {
+            "href": "https://en.wikipedia.org/wiki/Tree_(graph_theory)",
+            "book": "Graph Drawing"
+        },
+        "H tree": {
+            "href": "https://en.wikipedia.org/wiki/H_tree",
+            "book": "Graph Drawing"
+        },
+        "Hyperbolic tree": {
+            "href": "https://en.wikipedia.org/wiki/Hyperbolic_tree",
+            "book": "Graph Drawing"
+        },
+        "Radial tree": {
+            "href": "https://en.wikipedia.org/wiki/Radial_tree",
+            "book": "Graph Drawing"
+        },
+        "Treemapping": {
+            "href": "https://en.wikipedia.org/wiki/Treemapping",
+            "book": "Graph Drawing"
+        }
+    },
+    "Application-specific graph drawings": {
+        "Cartogram": {
+            "href": "https://en.wikipedia.org/wiki/Cartogram",
+            "book": "Graph Drawing"
+        },
+        "Concept map": {
+            "href": "https://en.wikipedia.org/wiki/Concept_map",
+            "book": "Graph Drawing"
+        },
+        "Dendrogram": {
+            "href": "https://en.wikipedia.org/wiki/Dendrogram",
+            "book": "Graph Drawing"
+        },
+        "Dessin d'enfant": {
+            "href": "https://en.wikipedia.org/wiki/Dessin_d%27enfant",
+            "book": "Graph Drawing"
+        },
+        "Hasse diagram": {
+            "href": "https://en.wikipedia.org/wiki/Hasse_diagram",
+            "book": "Graph Drawing"
+        },
+        "Sociogram": {
+            "href": "https://en.wikipedia.org/wiki/Sociogram",
+            "book": "Graph Drawing"
+        },
+        "State diagram": {
+            "href": "https://en.wikipedia.org/wiki/State_diagram",
+            "book": "Graph Drawing"
+        },
+        "Syntax diagram": {
+            "href": "https://en.wikipedia.org/wiki/Syntax_diagram",
+            "book": "Graph Drawing"
+        }
+    },
+    "Quality criteria": {
+        "Angular resolution": {
+            "href": "https://en.wikipedia.org/wiki/Angular_resolution_(graph_drawing)",
+            "book": "Graph Drawing"
+        },
+        "Area": {
+            "href": "https://en.wikipedia.org/wiki/Area_(graph_drawing)",
+            "book": "Graph Drawing"
+        },
+        "Bend minimization": {
+            "href": "https://en.wikipedia.org/wiki/Bend_minimization",
+            "book": "Graph Drawing"
+        },
+        "Crossing number": {
+            "href": "https://en.wikipedia.org/wiki/Crossing_number_(graph_theory)",
+            "book": "Graph Drawing"
+        },
+        "Slope number": {
+            "href": "https://en.wikipedia.org/wiki/Slope_number",
+            "book": "Graph Drawing"
+        }
+    },
+    "Planar graphs": {
+        "Planar graph": {
+            "href": "https://en.wikipedia.org/wiki/Planar_graph",
+            "book": "Graph Drawing"
+        },
+        "Dual graph": {
+            "href": "https://en.wikipedia.org/wiki/Dual_graph",
+            "book": "Graph Drawing"
+        },
+        "F\u00e1ry's theorem": {
+            "href": "https://en.wikipedia.org/wiki/F%C3%A1ry%27s_theorem",
+            "book": "Graph Drawing"
+        },
+        "Harborth's conjecture": {
+            "href": "https://en.wikipedia.org/wiki/Harborth%27s_conjecture",
+            "book": "Graph Drawing"
+        },
+        "Medial graph": {
+            "href": "https://en.wikipedia.org/wiki/Medial_graph",
+            "book": "Graph Drawing"
+        },
+        "Tutte embedding": {
+            "href": "https://en.wikipedia.org/wiki/Tutte_embedding",
+            "book": "Graph Drawing"
+        },
+        "Convex drawing": {
+            "href": "https://en.wikipedia.org/wiki/Convex_drawing",
+            "book": "Graph Drawing"
+        },
+        "Universal point set": {
+            "href": "https://en.wikipedia.org/wiki/Universal_point_set",
+            "book": "Graph Drawing"
+        }
+    },
+    "Planarity testing": {
+        "Planarity testing": {
+            "href": "https://en.wikipedia.org/wiki/Planarity_testing",
+            "book": "Graph Drawing"
+        },
+        "Left-right planarity test": {
+            "href": "https://en.wikipedia.org/wiki/Left-right_planarity_test",
+            "book": "Graph Drawing"
+        },
+        "Hanani\u2013Tutte theorem": {
+            "href": "https://en.wikipedia.org/wiki/Hanani%E2%80%93Tutte_theorem",
+            "book": "Graph Drawing"
+        },
+        "Kuratowski's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Kuratowski%27s_theorem",
+            "book": "Graph Drawing"
+        },
+        "Mac Lane's planarity criterion": {
+            "href": "https://en.wikipedia.org/wiki/Mac_Lane%27s_planarity_criterion",
+            "book": "Graph Drawing"
+        },
+        "Schnyder's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Schnyder%27s_theorem",
+            "book": "Graph Drawing"
+        },
+        "Wagner's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Wagner%27s_theorem",
+            "book": "Graph Drawing"
+        },
+        "Whitney's planarity criterion": {
+            "href": "https://en.wikipedia.org/wiki/Whitney%27s_planarity_criterion",
+            "book": "Graph Drawing"
+        }
+    },
+    "Classes of planar graphs": {
+        "Apollonian network": {
+            "href": "https://en.wikipedia.org/wiki/Apollonian_network",
+            "book": "Graph Drawing"
+        },
+        "Cactus graph": {
+            "href": "https://en.wikipedia.org/wiki/Cactus_graph",
+            "book": "Graph Drawing"
+        },
+        "Halin graph": {
+            "href": "https://en.wikipedia.org/wiki/Halin_graph",
+            "book": "Graph Drawing"
+        },
+        "Outerplanar graph": {
+            "href": "https://en.wikipedia.org/wiki/Outerplanar_graph",
+            "book": "Graph Drawing"
+        },
+        "Nested triangles graph": {
+            "href": "https://en.wikipedia.org/wiki/Nested_triangles_graph",
+            "book": "Graph Drawing"
+        },
+        "Series\u2013parallel graph": {
+            "href": "https://en.wikipedia.org/wiki/Series%E2%80%93parallel_graph",
+            "book": "Graph Drawing"
+        },
+        "Squaregraph": {
+            "href": "https://en.wikipedia.org/wiki/Squaregraph",
+            "book": "Graph Drawing"
+        },
+        "st-planar graph": {
+            "href": "https://en.wikipedia.org/wiki/St-planar_graph",
+            "book": "Graph Drawing"
+        },
+        "Subhamiltonian graph": {
+            "href": "https://en.wikipedia.org/wiki/Subhamiltonian_graph",
+            "book": "Graph Drawing"
+        },
+        "Wheel graph": {
+            "href": "https://en.wikipedia.org/wiki/Wheel_graph",
+            "book": "Graph Drawing"
+        }
+    },
+    "Beyond planarity": {
+        "Planarization": {
+            "href": "https://en.wikipedia.org/wiki/Planarization",
+            "book": "Graph Drawing"
+        },
+        "1-planar graph": {
+            "href": "https://en.wikipedia.org/wiki/1-planar_graph",
+            "book": "Graph Drawing"
+        },
+        "Apex graph": {
+            "href": "https://en.wikipedia.org/wiki/Apex_graph",
+            "book": "Graph Drawing"
+        },
+        "Book embedding": {
+            "href": "https://en.wikipedia.org/wiki/Book_embedding",
+            "book": "Graph Drawing"
+        },
+        "Clustered planarity": {
+            "href": "https://en.wikipedia.org/wiki/Clustered_planarity",
+            "book": "Graph Drawing"
+        },
+        "Graph embedding": {
+            "href": "https://en.wikipedia.org/wiki/Graph_embedding",
+            "book": "Graph Drawing"
+        },
+        "Greedy embedding": {
+            "href": "https://en.wikipedia.org/wiki/Greedy_embedding",
+            "book": "Graph Drawing"
+        },
+        "Linkless embedding": {
+            "href": "https://en.wikipedia.org/wiki/Linkless_embedding",
+            "book": "Graph Drawing"
+        },
+        "RAC drawing": {
+            "href": "https://en.wikipedia.org/wiki/RAC_drawing",
+            "book": "Graph Drawing"
+        },
+        "Simultaneous embedding": {
+            "href": "https://en.wikipedia.org/wiki/Simultaneous_embedding",
+            "book": "Graph Drawing"
+        },
+        "Strangulated graph": {
+            "href": "https://en.wikipedia.org/wiki/Strangulated_graph",
+            "book": "Graph Drawing"
+        },
+        "Thickness (graph theory)": {
+            "href": "https://en.wikipedia.org/wiki/Thickness_(graph_theory)",
+            "book": "Graph Drawing"
+        },
+        "Topological graph theory": {
+            "href": "https://en.wikipedia.org/wiki/Topological_graph_theory",
+            "book": "Graph Drawing"
+        },
+        "Toroidal graph": {
+            "href": "https://en.wikipedia.org/wiki/Toroidal_graph",
+            "book": "Graph Drawing"
+        }
+    },
+    "Contact and intersection representations": {
+        "Intersection graph": {
+            "href": "https://en.wikipedia.org/wiki/Intersection_graph",
+            "book": "Graph Drawing"
+        },
+        "Boxicity": {
+            "href": "https://en.wikipedia.org/wiki/Boxicity",
+            "book": "Graph Drawing"
+        },
+        "Circle graph": {
+            "href": "https://en.wikipedia.org/wiki/Circle_graph",
+            "book": "Graph Drawing"
+        },
+        "Circle packing theorem": {
+            "href": "https://en.wikipedia.org/wiki/Circle_packing_theorem",
+            "book": "Graph Drawing"
+        },
+        "Interval graph": {
+            "href": "https://en.wikipedia.org/wiki/Interval_graph",
+            "book": "Graph Drawing"
+        },
+        "Scheinerman's conjecture": {
+            "href": "https://en.wikipedia.org/wiki/Scheinerman%27s_conjecture",
+            "book": "Graph Drawing"
+        },
+        "String graph": {
+            "href": "https://en.wikipedia.org/wiki/String_graph",
+            "book": "Graph Drawing"
+        },
+        "Unit disk graph": {
+            "href": "https://en.wikipedia.org/wiki/Unit_disk_graph",
+            "book": "Graph Drawing"
+        }
+    },
+    "Other geometric representations of graphs": {
+        "Geometric graph theory": {
+            "href": "https://en.wikipedia.org/wiki/Geometric_graph_theory",
+            "book": "Graph Drawing"
+        },
+        "Matchstick graph": {
+            "href": "https://en.wikipedia.org/wiki/Matchstick_graph",
+            "book": "Graph Drawing"
+        },
+        "Polyhedral graph": {
+            "href": "https://en.wikipedia.org/wiki/Polyhedral_graph",
+            "book": "Graph Drawing"
+        },
+        "Steinitz's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Steinitz%27s_theorem",
+            "book": "Graph Drawing"
+        },
+        "Unit distance graph": {
+            "href": "https://en.wikipedia.org/wiki/Unit_distance_graph",
+            "book": "Graph Drawing"
+        },
+        "Visibility graph": {
+            "href": "https://en.wikipedia.org/wiki/Visibility_graph",
+            "book": "Graph Drawing"
+        }
+    },
+    "Computer representations of graphs and drawings": {
+        "Graph (abstract data type)": {
+            "href": "https://en.wikipedia.org/wiki/Graph_(abstract_data_type)",
+            "book": "Graph Drawing"
+        },
+        "Adjacency list": {
+            "href": "https://en.wikipedia.org/wiki/Adjacency_list",
+            "book": "Graph Drawing"
+        },
+        "Adjacency matrix": {
+            "href": "https://en.wikipedia.org/wiki/Adjacency_matrix",
+            "book": "Graph Drawing"
+        },
+        "DOT (graph description language)": {
+            "href": "https://en.wikipedia.org/wiki/DOT_(graph_description_language)",
+            "book": "Graph Drawing"
+        },
+        "Doubly connected edge list": {
+            "href": "https://en.wikipedia.org/wiki/Doubly_connected_edge_list",
+            "book": "Graph Drawing"
+        },
+        "GraphML": {
+            "href": "https://en.wikipedia.org/wiki/GraphML",
+            "book": "Graph Drawing"
+        },
+        "LCF notation": {
+            "href": "https://en.wikipedia.org/wiki/LCF_notation",
+            "book": "Graph Drawing"
+        },
+        "Rotation system": {
+            "href": "https://en.wikipedia.org/wiki/Rotation_system",
+            "book": "Graph Drawing"
+        }
+    },
+    "Algorithmic components": {
+        "Biconnected components and BC trees": {
+            "href": "https://en.wikipedia.org/wiki/Biconnected_component",
+            "book": "Graph Drawing"
+        },
+        "Bipolar orientation": {
+            "href": "https://en.wikipedia.org/wiki/Bipolar_orientation",
+            "book": "Graph Drawing"
+        },
+        "Coffman\u2013Graham algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Coffman%E2%80%93Graham_algorithm",
+            "book": "Graph Drawing"
+        },
+        "Existential theory of the reals": {
+            "href": "https://en.wikipedia.org/wiki/Existential_theory_of_the_reals",
+            "book": "Graph Drawing"
+        },
+        "Heavy path decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Heavy_path_decomposition",
+            "book": "Graph Drawing"
+        },
+        "PQ tree": {
+            "href": "https://en.wikipedia.org/wiki/PQ_tree",
+            "book": "Graph Drawing"
+        },
+        "SPQR tree": {
+            "href": "https://en.wikipedia.org/wiki/SPQR_tree",
+            "book": "Graph Drawing"
+        },
+        "Tr\u00e9maux tree": {
+            "href": "https://en.wikipedia.org/wiki/Tr%C3%A9maux_tree",
+            "book": "Graph Drawing"
+        }
+    },
+    "Graph drawing software": {
+        "Gephi": {
+            "href": "https://en.wikipedia.org/wiki/Gephi",
+            "book": "Graph Drawing"
+        },
+        "Graphviz": {
+            "href": "https://en.wikipedia.org/wiki/Graphviz",
+            "book": "Graph Drawing"
+        },
+        "JUNG": {
+            "href": "https://en.wikipedia.org/wiki/JUNG",
+            "book": "Graph Drawing"
+        },
+        "Meurs Challenger": {
+            "href": "https://en.wikipedia.org/wiki/Meurs_Challenger",
+            "book": "Graph Drawing"
+        },
+        "Microsoft Automatic Graph Layout": {
+            "href": "https://en.wikipedia.org/wiki/Microsoft_Automatic_Graph_Layout",
+            "book": "Graph Drawing"
+        },
+        "yEd": {
+            "href": "https://en.wikipedia.org/wiki/YEd",
+            "book": "Graph Drawing"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "https://en.wikipedia.org/wiki/Climate_change",
+    "links": [
+      "https://en.wikipedia.org/wiki/Climate_system"
+    ]
+  },
+  {
+    "title": "https://en.wikipedia.org/wiki/Climate_system",
+    "links": [
+      "https://en.wikipedia.org/wiki/Complex_system"
+    ]
+  },
+  {
+    "title": "https://en.wikipedia.org/wiki/Complex_system",
+    "links": [
+      "https://en.wikipedia.org/wiki/Collective_intelligence"
+    ]
+  },
+  {
+    "title": "https://en.wikipedia.org/wiki/Collective_intelligence",
+    "links": [
+      "https://en.wikipedia.org/wiki/Emergence"
+    ]
+  },
+  {
+    "title": "https://en.wikipedia.org/wiki/Emergence",
+    "links": [
+      "https://en.wikipedia.org/wiki/Collective_intelligence"
+    ]
+  }
+]

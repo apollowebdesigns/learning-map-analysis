@@ -1,0 +1,109 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .tappable-list {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            background-color: #f1f1f1;
+            border: 1px solid #d3d3d3;
+            width: 250px;
+            max-height: 80vh;
+            overflow-y: auto;
+            user-select: none;
+        }
+        
+        .list-header {
+            padding: 10px;
+            background-color: #2196F3;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .list-item {
+            padding: 15px;
+            border-bottom: 1px solid #d3d3d3;
+            background-color: #fff;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        
+        .list-item:last-child {
+            border-bottom: none;
+        }
+
+        .list-item.removing {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="tappable-list" id="tappableList">
+            <div class="list-header">Double Tap to Remove</div>
+            {% for item in items %}
+                <div class="list-item">
+                    {% if item.link %}
+                        <a href="{{ item.link }}">{{ item.name }}</a>
+                    {% else %}
+                        {{ item.name }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+        <iframe src="https://en.wikipedia.org/wiki/{{ username }}">
+            Your browser doesn't support iframes
+        </iframe>
+    </div>
+
+    <script>
+        const list = document.getElementById('tappableList');
+        let lastTap = 0;
+        const doubleTapDelay = 300; // milliseconds
+
+        list.addEventListener('touchstart', handleTap);
+        list.addEventListener('mousedown', handleTap);
+
+        function handleTap(e) {
+            if (e.target.classList.contains('list-item')) {
+                const currentTime = new Date().getTime();
+                const tapLength = currentTime - lastTap;
+                if (tapLength < doubleTapDelay && tapLength > 0) {
+                    removeItem(e.target);
+                    e.preventDefault();
+                }
+                lastTap = currentTime;
+            }
+        }
+
+        function removeItem(item) {
+            item.classList.add('removing');
+            setTimeout(() => {
+                list.removeChild(item);
+            }, 300);
+        }
+    </script>
+</body>
+</html>

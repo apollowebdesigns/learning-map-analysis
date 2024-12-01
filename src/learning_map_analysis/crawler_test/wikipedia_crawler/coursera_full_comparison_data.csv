@@ -1,0 +1,10 @@
+Chapter,Methods,Percentage Covered,Scraper Percentage Covered
+Divide and conquer algorithm,Louvain,33.333333333333336,33.33333333333334
+Divide and conquer algorithm,Label Propagation,33.333333333333336,33.33333333333334
+Divide and conquer algorithm,PageRank,33.333333333333336,33.33333333333334
+Game theory,Louvain,20.0,100.0
+Game theory,Label Propagation,20.0,100.0
+Game theory,PageRank,20.0,100.0
+Introduction to calculus,Louvain,33.333333333333336,50.0
+Introduction to calculus,Label Propagation,33.333333333333336,50.0
+Introduction to calculus,PageRank,16.666666666666668,50.0

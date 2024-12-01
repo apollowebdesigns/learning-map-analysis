@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 vector-feature-night-mode-enabled skin-theme-clientpref-day vector-toc-available" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>User:David Eppstein/Graph Algorithms - Wikipedia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 vector-feature-night-mode-enabled skin-theme-clientpref-day vector-toc-available";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy",
+"wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"0c8a4164-a1d4-433f-929f-33c04cb3a282","wgCanonicalNamespace":"User","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":2,"wgPageName":"User:David_Eppstein/Graph_Algorithms","wgTitle":"David Eppstein/Graph Algorithms","wgCurRevisionId":1181679397,"wgRevisionId":1181679397,"wgArticleId":28009856,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["User namespace book pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"User:David_Eppstein/Graph_Algorithms","wgRelevantArticleId":28009856,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRelevantUserName":"David Eppstein","wgNoticeProject":"wikipedia","wgCiteReferencePreviewsActive":false,
+"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":6000,"wgRelatedArticlesCompat":[],"wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"ext.globalCssJs.user.styles":"ready",
+"site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.wikimediamessages.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.bootstrap","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cext.wikimediamessages.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.44.0-wmf.2">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="noindex,follow,max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="User:David Eppstein/Graph Algorithms - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="//en.m.wikipedia.org/wiki/User:David_Eppstein/Graph_Algorithms">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/User:David_Eppstein/Graph_Algorithms">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin--responsive skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-2 ns-subject mw-editable page-User_David_Eppstein_Graph_Algorithms rootpage-User_David_Eppstein skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="Appearance">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"  >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance"></span>
+
+<span class="vector-dropdown-label-text">Appearance</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" class=""><span>Donate</span></a>
+</li>
+<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:CreateAccount&amp;returnto=User%3ADavid+Eppstein%2FGraph+Algorithms" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:UserLogin&amp;returnto=User%3ADavid+Eppstein%2FGraph+Algorithms" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-sitesupport" class="user-links-collapsible-item mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en"><span>Donate</span></a></li><li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=User%3ADavid+Eppstein%2FGraph+Algorithms" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=User%3ADavid+Eppstein%2FGraph+Algorithms" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Graph_Algorithms"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Graph_Algorithms">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>Graph Algorithms</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Graph_Algorithms-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar">
+					<nav aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">User</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">David Eppstein/Graph Algorithms</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="This article exist only in this language. Add the article for other languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-0" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">Add languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-user" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/User:David_Eppstein/Graph_Algorithms" title="View the user page [c]" accesskey="c"><span>User page</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/User_talk:David_Eppstein/Graph_Algorithms" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/User:David_Eppstein/Graph_Algorithms"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/User:David_Eppstein/Graph_Algorithms"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/User:David_Eppstein/Graph_Algorithms" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/User:David_Eppstein/Graph_Algorithms" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-contributions" class="mw-list-item"><a href="/wiki/Special:Contributions/David_Eppstein" title="A list of contributions by this user"><span>User contributions</span></a></li><li id="t-log" class="mw-list-item"><a href="/wiki/Special:Log/David_Eppstein" title="A list of logged actions by this user"><span>User logs</span></a></li><li id="t-userrights" class="mw-list-item"><a href="/wiki/Special:UserRights/David_Eppstein"><span>View user groups</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;oldid=1181679397" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUser%3ADavid_Eppstein%2FGraph_Algorithms"><span>Get shortened URL</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Special:QrCode&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUser%3ADavid_Eppstein%2FGraph_Algorithms"><span>Download QR code</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=User%3ADavid_Eppstein%2FGraph_Algorithms&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects emptyPortlet"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="Appearance">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Appearance</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin">hide</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <bdi dir="ltr"><a href="/wiki/User:David_Eppstein" title="User:David Eppstein">User:David Eppstein</a></bdi></div></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><table border="1" cellspacing="20" class="floatright">
+
+<tbody><tr>
+<td><table style="background:#76b3df; color: black; text-align:left; border:1px solid darkgrey; width: 130px;"><tbody><tr><td style="background:gray; height: 3px;"></td></tr><tr><td style="height: 30px; text-align: right; vertical-align: top;"><small><a class="mw-selflink selflink">Graph Algorithms</a><br /><i></i></small></td></tr><tr><td style="background:gray;"></td></tr><tr><td colspan="5" style="height: 135px; text-align: center; vertical-align: middle;"><span typeof="mw:File"><a href="/wiki/File:Cube-maximal-independence.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cube-maximal-independence.svg/125px-Cube-maximal-independence.svg.png" decoding="async" width="125" height="82" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cube-maximal-independence.svg/188px-Cube-maximal-independence.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cube-maximal-independence.svg/250px-Cube-maximal-independence.svg.png 2x" data-file-width="630" data-file-height="414" /></a></span></td></tr></tbody></table>
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2"><h2 id="Graph_Algorithms">Graph Algorithms</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;action=edit&amp;section=1" title="Edit section: Graph Algorithms"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<dl><dt>Introduction</dt>
+<dd><a href="/wiki/Graph_theory" title="Graph theory">Graph theory</a></dd>
+<dd><a href="/wiki/Glossary_of_graph_theory" title="Glossary of graph theory">Glossary of graph theory</a></dd>
+<dd><a href="/wiki/Graph_(discrete_mathematics)" title="Graph (discrete mathematics)">Undirected graphs</a></dd>
+<dd><a href="/wiki/Directed_graph" title="Directed graph">Directed graphs</a></dd>
+<dd><a href="/wiki/Directed_acyclic_graph" title="Directed acyclic graph">Directed acyclic graphs</a></dd>
+<dd><a href="/wiki/Graph_(abstract_data_type)" title="Graph (abstract data type)">Computer representations of graphs</a></dd>
+<dd><a href="/wiki/Adjacency_list" title="Adjacency list">Adjacency list</a></dd>
+<dd><a href="/wiki/Adjacency_matrix" title="Adjacency matrix">Adjacency matrix</a></dd>
+<dd><a href="/wiki/Implicit_graph" title="Implicit graph">Implicit graph</a></dd></dl>
+<dl><dt>Graph exploration and vertex ordering</dt>
+<dd><a href="/wiki/Depth-first_search" title="Depth-first search">Depth-first search</a></dd>
+<dd><a href="/wiki/Breadth-first_search" title="Breadth-first search">Breadth-first search</a></dd>
+<dd><a href="/wiki/Lexicographic_breadth-first_search" title="Lexicographic breadth-first search">Lexicographic breadth-first search</a></dd>
+<dd><a href="/wiki/Iterative_deepening_depth-first_search" title="Iterative deepening depth-first search">Iterative deepening depth-first search</a></dd>
+<dd><a href="/wiki/Topological_sorting" title="Topological sorting">Topological sorting</a></dd>
+<dd><a href="/wiki/Dependency_graph" title="Dependency graph">Application: Dependency graphs</a></dd></dl>
+<dl><dt>Connectivity of undirected graphs</dt>
+<dd><a href="/wiki/Component_(graph_theory)" title="Component (graph theory)">Connected components</a></dd>
+<dd><a href="/wiki/K-edge-connected_graph" title="K-edge-connected graph">Edge connectivity</a></dd>
+<dd><a href="/wiki/K-vertex-connected_graph" title="K-vertex-connected graph">Vertex connectivity</a></dd>
+<dd><a href="/wiki/Menger%27s_theorem" title="Menger&#39;s theorem">Menger's theorems on edge and vertex connectivity</a></dd>
+<dd><a href="/wiki/Ear_decomposition" title="Ear decomposition">Ear decomposition</a></dd>
+<dd><a href="/wiki/Bridge_(graph_theory)" title="Bridge (graph theory)">Algorithms for 2-edge-connected components</a></dd>
+<dd><a href="/wiki/Biconnected_component" title="Biconnected component">Algorithms for 2-vertex-connected components</a></dd>
+<dd><a href="/wiki/SPQR_tree" title="SPQR tree">Algorithms for 3-vertex-connected components</a></dd>
+<dd><a href="/wiki/Karger%27s_algorithm" title="Karger&#39;s algorithm">Karger's algorithm for general vertex connectivity</a></dd></dl>
+<dl><dt>Connectivity of directed graphs</dt>
+<dd><a href="/wiki/Strongly_connected_component" title="Strongly connected component">Strongly connected components</a></dd>
+<dd><a href="/wiki/Tarjan%27s_strongly_connected_components_algorithm" title="Tarjan&#39;s strongly connected components algorithm">Tarjan's strongly connected components algorithm</a></dd>
+<dd><a href="/wiki/Path-based_strong_component_algorithm" title="Path-based strong component algorithm">Path-based strong component algorithm</a></dd>
+<dd><a href="/wiki/Kosaraju%27s_algorithm" title="Kosaraju&#39;s algorithm">Kosaraju's strongly connected components algorithm</a></dd>
+<dd><a href="/wiki/Reachability" title="Reachability">Reachability</a></dd>
+<dd><a href="/wiki/Transitive_closure" title="Transitive closure">Transitive closure</a></dd>
+<dd><a href="/wiki/Transitive_reduction" title="Transitive reduction">Transitive reduction</a></dd>
+<dd><a href="/wiki/2-satisfiability" title="2-satisfiability">Application: 2-satisfiability</a></dd></dl>
+<dl><dt>Shortest paths</dt>
+<dd><a href="/wiki/Shortest_path_problem" title="Shortest path problem">Shortest path problem</a></dd>
+<dd><a href="/wiki/Dijkstra%27s_algorithm" title="Dijkstra&#39;s algorithm">Dijkstra's algorithm for single-source shortest paths with positive edge lengths</a></dd>
+<dd><a href="/wiki/Bellman%E2%80%93Ford_algorithm" title="Bellman–Ford algorithm">Bellman–Ford algorithm for single-source shortest paths allowing negative edge lengths</a></dd>
+<dd><a href="/wiki/Johnson%27s_algorithm" title="Johnson&#39;s algorithm">Johnson's algorithm for all-pairs shortest paths in sparse graphs</a></dd>
+<dd><a href="/wiki/Floyd%E2%80%93Warshall_algorithm" title="Floyd–Warshall algorithm">Floyd–Warshall algorithm for all-pairs shortest paths in dense graphs</a></dd>
+<dd><a href="/wiki/Suurballe%27s_algorithm" title="Suurballe&#39;s algorithm">Suurballe's algorithm for two shortest disjoint paths</a></dd>
+<dd><a href="/wiki/Bidirectional_search" title="Bidirectional search">Bidirectional search</a></dd>
+<dd><a href="/wiki/A*_search_algorithm" title="A* search algorithm">A* search algorithm</a></dd>
+<dd><a href="/wiki/Longest_path_problem" title="Longest path problem">Longest path problem</a></dd>
+<dd><a href="/wiki/Widest_path_problem" title="Widest path problem">Widest path problem</a></dd>
+<dd><a href="/wiki/Canadian_traveller_problem" title="Canadian traveller problem">Canadian traveller problem</a></dd>
+<dd><a href="/wiki/K_shortest_path_routing" title="K shortest path routing">K shortest path routing</a></dd>
+<dd><a href="/wiki/Centrality" title="Centrality">Application: Centrality analysis of social networks</a></dd>
+<dd><a href="/wiki/Schulze_method" title="Schulze method">Application: Schulze voting system</a></dd></dl>
+<dl><dt>Minimum spanning trees</dt>
+<dd><a href="/wiki/Minimum_spanning_tree" title="Minimum spanning tree">Minimum spanning tree</a></dd>
+<dd><a href="/wiki/Bor%C5%AFvka%27s_algorithm" title="Borůvka&#39;s algorithm">Borůvka's algorithm</a></dd>
+<dd><a href="/wiki/Kruskal%27s_algorithm" title="Kruskal&#39;s algorithm">Kruskal's algorithm</a></dd>
+<dd><a href="/wiki/Prim%27s_algorithm" title="Prim&#39;s algorithm">Prim's algorithm</a></dd>
+<dd><a href="/wiki/Edmonds%27_algorithm" title="Edmonds&#39; algorithm">Edmonds's algorithm for directed minimum spanning trees</a></dd>
+<dd><a href="/wiki/Degree-constrained_spanning_tree" title="Degree-constrained spanning tree">Degree-constrained spanning tree</a></dd>
+<dd><a href="/wiki/Connected_dominating_set" title="Connected dominating set">Maximum-leaf spanning tree</a></dd>
+<dd><a href="/wiki/K-minimum_spanning_tree" title="K-minimum spanning tree">K-minimum spanning tree</a></dd>
+<dd><a href="/wiki/Capacitated_minimum_spanning_tree" title="Capacitated minimum spanning tree">Capacitated minimum spanning tree</a></dd>
+<dd><a href="/wiki/Single-linkage_clustering" title="Single-linkage clustering">Application: Single-linkage clustering</a></dd>
+<dd><a href="/wiki/Maze_generation_algorithm" title="Maze generation algorithm">Application: Maze generation</a></dd></dl>
+<dl><dt>Cliques, independent sets, and coloring</dt>
+<dd><a href="/wiki/Clique_problem" title="Clique problem">Clique problem</a></dd>
+<dd><a href="/wiki/Bron%E2%80%93Kerbosch_algorithm" title="Bron–Kerbosch algorithm">Bron–Kerbosch algorithm for listing all maximal cliques</a></dd>
+<dd><a href="/wiki/Independent_set_(graph_theory)" title="Independent set (graph theory)">Independent set problem</a></dd>
+<dd><a href="/wiki/Maximal_independent_set" title="Maximal independent set">Maximal independent set</a></dd>
+<dd><a href="/wiki/Graph_coloring" title="Graph coloring">Graph coloring</a></dd>
+<dd><a href="/wiki/Bipartite_graph" title="Bipartite graph">Bipartite graph</a></dd>
+<dd><a href="/wiki/Greedy_coloring" title="Greedy coloring">Greedy coloring</a></dd>
+<dd><a href="/wiki/Register_allocation" title="Register allocation">Application: Register allocation</a></dd></dl>
+<dl><dt>Covering and domination</dt>
+<dd><a href="/wiki/Vertex_cover" title="Vertex cover">Vertex cover</a></dd>
+<dd><a href="/wiki/Dominating_set" title="Dominating set">Dominating set</a></dd>
+<dd><a href="/wiki/Feedback_vertex_set" title="Feedback vertex set">Feedback vertex set</a></dd>
+<dd><a href="/wiki/Feedback_arc_set" title="Feedback arc set">Feedback arc set</a></dd></dl>
+<dl><dt>Tours</dt>
+<dd><a href="/wiki/Eulerian_path" title="Eulerian path">Eulerian path</a></dd>
+<dd><a href="/wiki/Hamiltonian_path" title="Hamiltonian path">Hamiltonian path</a></dd>
+<dd><a href="/wiki/Hamiltonian_path_problem" title="Hamiltonian path problem">Hamiltonian path problem</a></dd>
+<dd><a href="/wiki/Travelling_salesman_problem" title="Travelling salesman problem">Travelling salesman problem</a></dd>
+<dd><a href="/wiki/Bottleneck_traveling_salesman_problem" title="Bottleneck traveling salesman problem">Bottleneck traveling salesman problem</a></dd>
+<dd><a href="/wiki/Christofides_algorithm" title="Christofides algorithm">Christofides' heuristic for the TSP</a></dd>
+<dd><a href="/wiki/Chinese_postman_problem" title="Chinese postman problem">Chinese postman problem</a></dd></dl>
+<dl><dt>Matching</dt>
+<dd><a href="/wiki/Matching_(graph_theory)" title="Matching (graph theory)">Matching</a></dd>
+<dd><a href="/wiki/Hopcroft%E2%80%93Karp_algorithm" title="Hopcroft–Karp algorithm">Hopcroft–Karp algorithm for maximum matching in bipartite graphs</a></dd>
+<dd><a href="/wiki/Blossom_algorithm" title="Blossom algorithm">Edmonds's algorithm for maximum matching in non-bipartite graphs</a></dd>
+<dd><a href="/wiki/Assignment_problem" title="Assignment problem">Assignment problem</a></dd>
+<dd><a href="/wiki/Hungarian_algorithm" title="Hungarian algorithm">Hungarian algorithm for the assignment problem</a></dd>
+<dd><a href="/wiki/FKT_algorithm" title="FKT algorithm">FKT algorithm for counting matchings in planar graphs</a></dd>
+<dd><a href="/wiki/Stable_marriage_problem" title="Stable marriage problem">Stable marriage problem</a></dd>
+<dd><a href="/wiki/Stable_roommates_problem" title="Stable roommates problem">Stable roommates problem</a></dd>
+<dd><a href="/wiki/Permanent_(mathematics)" title="Permanent (mathematics)">Permanent</a></dd>
+<dd><a href="/wiki/Computing_the_permanent" title="Computing the permanent">Computing the permanent</a></dd></dl>
+<dl><dt>Network flow</dt>
+<dd><a href="/wiki/Maximum_flow_problem" title="Maximum flow problem">Maximum flow problem</a></dd>
+<dd><a href="/wiki/Max-flow_min-cut_theorem" title="Max-flow min-cut theorem">Max-flow min-cut theorem</a></dd>
+<dd><a href="/wiki/Ford%E2%80%93Fulkerson_algorithm" title="Ford–Fulkerson algorithm">Ford–Fulkerson algorithm for maximum flows</a></dd>
+<dd><a href="/wiki/Edmonds%E2%80%93Karp_algorithm" title="Edmonds–Karp algorithm">Edmonds–Karp algorithm for maximum flows</a></dd>
+<dd><a href="/wiki/Dinic%27s_algorithm" title="Dinic&#39;s algorithm">Dinic's algorithm for maximum flows</a></dd>
+<dd><a href="/wiki/Push%E2%80%93relabel_maximum_flow_algorithm" title="Push–relabel maximum flow algorithm">Push–relabel maximum flow algorithm</a></dd>
+<dd><a href="/wiki/Closure_problem" title="Closure problem">Closure problem</a></dd>
+<dd><a href="/wiki/Minimum-cost_flow_problem" title="Minimum-cost flow problem">Minimum-cost flow problem</a></dd></dl>
+<dl><dt>Graph drawing and planar graphs</dt>
+<dd><a href="/wiki/Planar_graph" title="Planar graph">Planar graph</a></dd>
+<dd><a href="/wiki/Dual_graph" title="Dual graph">Dual graph</a></dd>
+<dd><a href="/wiki/F%C3%A1ry%27s_theorem" title="Fáry&#39;s theorem">Fáry's theorem</a></dd>
+<dd><a href="/wiki/Steinitz%27s_theorem" title="Steinitz&#39;s theorem">Steinitz's theorem</a></dd>
+<dd><a href="/wiki/Planarity_testing" title="Planarity testing">Planarity testing</a></dd>
+<dd><a href="/wiki/Left-right_planarity_test" title="Left-right planarity test">Left-right planarity test</a></dd>
+<dd><a href="/wiki/Graph_drawing" title="Graph drawing">Graph drawing</a></dd>
+<dd><a href="/wiki/Force-directed_graph_drawing" title="Force-directed graph drawing">Force-directed graph drawing</a></dd>
+<dd><a href="/wiki/Layered_graph_drawing" title="Layered graph drawing">Layered graph drawing</a></dd>
+<dd><a href="/wiki/Upward_planar_drawing" title="Upward planar drawing">Upward planar drawing</a></dd>
+<dd><a href="/wiki/Graph_embedding" title="Graph embedding">Graph embedding</a></dd>
+<dd><a href="/wiki/Sociogram" title="Sociogram">Application: Sociograms</a></dd>
+<dd><a href="/wiki/Concept_map" title="Concept map">Application: Concept maps</a></dd></dl>
+<dl><dt>Special classes of graphs</dt>
+<dd><a href="/wiki/Interval_graph" title="Interval graph">Interval graph</a></dd>
+<dd><a href="/wiki/Chordal_graph" title="Chordal graph">Chordal graph</a></dd>
+<dd><a href="/wiki/Perfect_graph" title="Perfect graph">Perfect graph</a></dd>
+<dd><a href="/wiki/Intersection_graph" title="Intersection graph">Intersection graph</a></dd>
+<dd><a href="/wiki/Unit_disk_graph" title="Unit disk graph">Unit disk graph</a></dd>
+<dd><a href="/wiki/Line_graph" title="Line graph">Line graph</a></dd>
+<dd><a href="/wiki/Claw-free_graph" title="Claw-free graph">Claw-free graph</a></dd>
+<dd><a href="/wiki/Median_graph" title="Median graph">Median graph</a></dd></dl>
+<dl><dt>Graph isomorphism</dt>
+<dd><a href="/wiki/Graph_isomorphism" title="Graph isomorphism">Graph isomorphism</a></dd>
+<dd><a href="/wiki/Graph_isomorphism_problem" title="Graph isomorphism problem">Graph isomorphism problem</a></dd>
+<dd><a href="/wiki/Graph_canonization" title="Graph canonization">Graph canonization</a></dd>
+<dd><a href="/wiki/Subgraph_isomorphism_problem" title="Subgraph isomorphism problem">Subgraph isomorphism problem</a></dd>
+<dd><a href="/wiki/Color-coding" title="Color-coding">Color-coding</a></dd>
+<dd><a href="/wiki/Induced_subgraph_isomorphism_problem" title="Induced subgraph isomorphism problem">Induced subgraph isomorphism problem</a></dd>
+<dd><a href="/wiki/Maximum_common_induced_subgraph" title="Maximum common induced subgraph">Maximum common induced subgraph</a></dd>
+<dd><a href="/wiki/Maximum_common_edge_subgraph" title="Maximum common edge subgraph">Maximum common edge subgraph</a></dd></dl>
+<dl><dt>Graph decomposition and graph minors</dt>
+<dd><a href="/wiki/Graph_partition" title="Graph partition">Graph partition</a></dd>
+<dd><a href="/wiki/Kernighan%E2%80%93Lin_algorithm" title="Kernighan–Lin algorithm">Kernighan–Lin algorithm</a></dd>
+<dd><a href="/wiki/Tree_decomposition" title="Tree decomposition">Tree decomposition</a></dd>
+<dd><a href="/wiki/Branch-decomposition" title="Branch-decomposition">Branch-decomposition</a></dd>
+<dd><a href="/wiki/Pathwidth" title="Pathwidth">Path decomposition</a></dd>
+<dd><a href="/wiki/Planar_separator_theorem" title="Planar separator theorem">Planar separator theorem</a></dd>
+<dd><a href="/wiki/Graph_minor" title="Graph minor">Graph minors</a></dd>
+<dd><a href="/wiki/Courcelle%27s_theorem" title="Courcelle&#39;s theorem">Courcelle's theorem</a></dd>
+<dd><a href="/wiki/Robertson%E2%80%93Seymour_theorem" title="Robertson–Seymour theorem">Robertson–Seymour theorem</a></dd>
+<dd><a href="/wiki/Bidimensionality" title="Bidimensionality">Bidimensionality</a></dd></dl>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐int.codfw.main‐7858d788f6‐hkwms
+Cached time: 20241102023642
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.028 seconds
+Real time usage: 0.040 seconds
+Preprocessor visited node count: 36/1000000
+Post‐expand include size: 541/2097152 bytes
+Template argument size: 129/2097152 bytes
+Highest expansion depth: 5/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    2.290      1 Template:Pp-book-cover
+100.00%    2.290      1 -total
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:28009856-0!canonical and timestamp 20241102023642 and revision id 1181679397. Rendering was triggered because: api-parse
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;oldid=1181679397">https://en.wikipedia.org/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;oldid=1181679397</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Category</a>: <ul><li><a href="/wiki/Category:User_namespace_book_pages" title="Category:User namespace book pages">User namespace book pages</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 24 October 2023, at 15:27<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a href="/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" title="Wikipedia:Text of the Creative Commons Attribution-ShareAlike 4.0 International License">Creative Commons Attribution-ShareAlike 4.0 License</a>;
+additional terms may apply. By using this site, you agree to the <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" class="extiw" title="foundation:Special:MyLanguage/Policy:Terms of Use">Terms of Use</a> and <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy" class="extiw" title="foundation:Special:MyLanguage/Policy:Privacy policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a rel="nofollow" class="external text" href="https://wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=User:David_Eppstein/Graph_Algorithms&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><img src="/static/images/footer/wikimedia-button.svg" width="84" height="29" alt="Wikimedia Foundation" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><img src="/w/resources/assets/poweredby_mediawiki.svg" alt="Powered by MediaWiki" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul></ul>
+</div><script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.eqiad.main-6c476644db-m9t6n","wgBackendResponseTime":213,"wgPageParseReport":{"limitreport":{"cputime":"0.028","walltime":"0.040","ppvisitednodes":{"value":36,"limit":1000000},"postexpandincludesize":{"value":541,"limit":2097152},"templateargumentsize":{"value":129,"limit":2097152},"expansiondepth":{"value":5,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    2.290      1 Template:Pp-book-cover","100.00%    2.290      1 -total"]},"cachereport":{"origin":"mw-api-int.codfw.main-7858d788f6-hkwms","timestamp":"20241102023642","ttl":2592000,"transientcontent":false}}});});</script>
+</body>
+</html>

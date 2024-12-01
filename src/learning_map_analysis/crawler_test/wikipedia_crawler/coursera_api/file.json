@@ -1,0 +1,237 @@
+[
+    {
+        "count": 2128,
+        "name": "software-development",
+        "id": "software-development"
+    },
+    {
+        "count": 1949,
+        "name": "cloud-computing",
+        "id": "cloud-computing"
+    },
+    {
+        "count": 1581,
+        "name": "data-analysis",
+        "id": "data-analysis"
+    },
+    {
+        "count": 1447,
+        "name": "leadership-and-management",
+        "id": "leadership-and-management"
+    },
+    {
+        "count": 1391,
+        "name": "business-essentials",
+        "id": "business-essentials"
+    },
+    {
+        "count": 1084,
+        "name": "personal-development",
+        "id": "personal-development"
+    },
+    {
+        "count": 1083,
+        "name": "business-strategy",
+        "id": "business-strategy"
+    },
+    {
+        "count": 966,
+        "name": "marketing",
+        "id": "marketing"
+    },
+    {
+        "count": 810,
+        "name": "machine-learning",
+        "id": "machine-learning"
+    },
+    {
+        "count": 743,
+        "name": "mobile-and-web-development",
+        "id": "mobile-and-web-development"
+    },
+    {
+        "count": 717,
+        "name": "design-and-product",
+        "id": "design-and-product"
+    },
+    {
+        "count": 664,
+        "name": "data-management",
+        "id": "data-management"
+    },
+    {
+        "count": 662,
+        "name": "computer-security-and-networks",
+        "id": "computer-security-and-networks"
+    },
+    {
+        "count": 543,
+        "name": "education",
+        "id": "education"
+    },
+    {
+        "count": 533,
+        "name": "finance",
+        "id": "finance"
+    },
+    {
+        "count": 498,
+        "name": "governance-and-society",
+        "id": "governance-and-society"
+    },
+    {
+        "count": 486,
+        "name": "algorithms",
+        "id": "algorithms"
+    },
+    {
+        "count": 465,
+        "name": "entrepreneurship",
+        "id": "entrepreneurship"
+    },
+    {
+        "count": 424,
+        "name": "security",
+        "id": "security"
+    },
+    {
+        "count": 401,
+        "name": "support-and-operations",
+        "id": "support-and-operations"
+    },
+    {
+        "count": 365,
+        "name": "environmental-science-and-sustainability",
+        "id": "environmental-science-and-sustainability"
+    },
+    {
+        "count": 363,
+        "name": "music-and-art",
+        "id": "music-and-art"
+    },
+    {
+        "count": 308,
+        "name": "public-health",
+        "id": "public-health"
+    },
+    {
+        "count": 307,
+        "name": "mechanical-engineering",
+        "id": "mechanical-engineering"
+    },
+    {
+        "count": 305,
+        "name": "electrical-engineering",
+        "id": "electrical-engineering"
+    },
+    {
+        "count": 261,
+        "name": "history",
+        "id": "history"
+    },
+    {
+        "count": 257,
+        "name": "math-and-logic",
+        "id": "math-and-logic"
+    },
+    {
+        "count": 238,
+        "name": "networking",
+        "id": "networking"
+    },
+    {
+        "count": 218,
+        "name": "basic-science",
+        "id": "basic-science"
+    },
+    {
+        "count": 206,
+        "name": "economics",
+        "id": "economics"
+    },
+    {
+        "count": 193,
+        "name": "probability-and-statistics",
+        "id": "probability-and-statistics"
+    },
+    {
+        "count": 178,
+        "name": "physics-and-astronomy",
+        "id": "physics-and-astronomy"
+    },
+    {
+        "count": 175,
+        "name": "patient-care",
+        "id": "patient-care"
+    },
+    {
+        "count": 172,
+        "name": "psychology",
+        "id": "psychology"
+    },
+    {
+        "count": 168,
+        "name": "learning-english",
+        "id": "learning-english"
+    },
+    {
+        "count": 153,
+        "name": "philosophy",
+        "id": "philosophy"
+    },
+    {
+        "count": 126,
+        "name": "health-informatics",
+        "id": "health-informatics"
+    },
+    {
+        "count": 121,
+        "name": "healthcare-management",
+        "id": "healthcare-management"
+    },
+    {
+        "count": 119,
+        "name": "law",
+        "id": "law"
+    },
+    {
+        "count": 118,
+        "name": "research",
+        "id": "research"
+    },
+    {
+        "count": 96,
+        "name": "research-methods",
+        "id": "research-methods"
+    },
+    {
+        "count": 78,
+        "name": "other-languages",
+        "id": "other-languages"
+    },
+    {
+        "count": 64,
+        "name": "chemistry",
+        "id": "chemistry"
+    },
+    {
+        "count": 45,
+        "name": "nutrition",
+        "id": "nutrition"
+    },
+    {
+        "count": 14,
+        "name": "animal-health",
+        "id": "animal-health"
+    },
+    {
+        "count": 1,
+        "name": "biology",
+        "id": "biology"
+    },
+    {
+        "count": 1,
+        "name": "bioinformatics",
+        "id": "bioinformatics"
+    }
+]

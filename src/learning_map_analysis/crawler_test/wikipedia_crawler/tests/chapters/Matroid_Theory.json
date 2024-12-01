@@ -1,0 +1,316 @@
+{
+    "Basic concepts": {
+        "Matroid": {
+            "href": "https://en.wikipedia.org/wiki/Matroid",
+            "book": "Matroid Theory"
+        },
+        "Dual matroid": {
+            "href": "https://en.wikipedia.org/wiki/Dual_matroid",
+            "book": "Matroid Theory"
+        },
+        "Matroid rank": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_rank",
+            "book": "Matroid Theory"
+        }
+    },
+    "Examples": {
+        "Fano plane": {
+            "href": "https://en.wikipedia.org/wiki/Fano_plane",
+            "book": "Matroid Theory"
+        },
+        "Uniform matroid": {
+            "href": "https://en.wikipedia.org/wiki/Uniform_matroid",
+            "book": "Matroid Theory"
+        },
+        "V\u00e1mos matroid": {
+            "href": "https://en.wikipedia.org/wiki/V%C3%A1mos_matroid",
+            "book": "Matroid Theory"
+        },
+        "MacLane matroid": {
+            "href": "https://en.wikipedia.org/wiki/M%C3%B6bius%E2%80%93Kantor_configuration",
+            "book": "Matroid Theory"
+        }
+    },
+    "Matroids from linear algebra": {
+        "Matroid representation": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_representation",
+            "book": "Matroid Theory"
+        },
+        "Linear independence": {
+            "href": "https://en.wikipedia.org/wiki/Linear_independence",
+            "book": "Matroid Theory"
+        },
+        "Basis (linear algebra)": {
+            "href": "https://en.wikipedia.org/wiki/Basis_(linear_algebra)",
+            "book": "Matroid Theory"
+        },
+        "Rank (linear algebra)": {
+            "href": "https://en.wikipedia.org/wiki/Rank_(linear_algebra)",
+            "book": "Matroid Theory"
+        },
+        "Steinitz exchange lemma": {
+            "href": "https://en.wikipedia.org/wiki/Steinitz_exchange_lemma",
+            "book": "Matroid Theory"
+        },
+        "Binary matroid": {
+            "href": "https://en.wikipedia.org/wiki/Binary_matroid",
+            "book": "Matroid Theory"
+        },
+        "Regular matroid": {
+            "href": "https://en.wikipedia.org/wiki/Regular_matroid",
+            "book": "Matroid Theory"
+        },
+        "Spark (mathematics)": {
+            "href": "https://en.wikipedia.org/wiki/Spark_(mathematics)",
+            "book": "Matroid Theory"
+        }
+    },
+    "Matroids from abstract algebra": {
+        "Algebraic matroid": {
+            "href": "https://en.wikipedia.org/wiki/Algebraic_matroid",
+            "book": "Matroid Theory"
+        },
+        "Algebraic independence": {
+            "href": "https://en.wikipedia.org/wiki/Algebraic_independence",
+            "book": "Matroid Theory"
+        },
+        "Transcendence degree": {
+            "href": "https://en.wikipedia.org/wiki/Transcendence_degree",
+            "book": "Matroid Theory"
+        },
+        "Dowling geometry": {
+            "href": "https://en.wikipedia.org/wiki/Dowling_geometry",
+            "book": "Matroid Theory"
+        }
+    },
+    "Matroids from graphs": {
+        "Graphic matroid": {
+            "href": "https://en.wikipedia.org/wiki/Graphic_matroid",
+            "book": "Matroid Theory"
+        },
+        "Spanning tree": {
+            "href": "https://en.wikipedia.org/wiki/Spanning_tree",
+            "book": "Matroid Theory"
+        },
+        "Circuit rank": {
+            "href": "https://en.wikipedia.org/wiki/Circuit_rank",
+            "book": "Matroid Theory"
+        },
+        "Cycle space": {
+            "href": "https://en.wikipedia.org/wiki/Cycle_space",
+            "book": "Matroid Theory"
+        },
+        "Cycle basis": {
+            "href": "https://en.wikipedia.org/wiki/Cycle_basis",
+            "book": "Matroid Theory"
+        },
+        "Bicircular matroid": {
+            "href": "https://en.wikipedia.org/wiki/Bicircular_matroid",
+            "book": "Matroid Theory"
+        },
+        "Gammoid": {
+            "href": "https://en.wikipedia.org/wiki/Gammoid",
+            "book": "Matroid Theory"
+        },
+        "Biased graph": {
+            "href": "https://en.wikipedia.org/wiki/Biased_graph",
+            "book": "Matroid Theory"
+        },
+        "Gain graph": {
+            "href": "https://en.wikipedia.org/wiki/Gain_graph",
+            "book": "Matroid Theory"
+        },
+        "Signed graph": {
+            "href": "https://en.wikipedia.org/wiki/Signed_graph",
+            "book": "Matroid Theory"
+        }
+    },
+    "Additional constructions of matroids": {
+        "Partition matroid": {
+            "href": "https://en.wikipedia.org/wiki/Partition_matroid",
+            "book": "Matroid Theory"
+        },
+        "Paving matroid": {
+            "href": "https://en.wikipedia.org/wiki/Paving_matroid",
+            "book": "Matroid Theory"
+        },
+        "Rigidity matroid": {
+            "href": "https://en.wikipedia.org/wiki/Rigidity_matroid",
+            "book": "Matroid Theory"
+        }
+    },
+    "Structures equivalent to matroids": {
+        "Cryptomorphism": {
+            "href": "https://en.wikipedia.org/wiki/Cryptomorphism",
+            "book": "Matroid Theory"
+        },
+        "Geometric lattice": {
+            "href": "https://en.wikipedia.org/wiki/Geometric_lattice",
+            "book": "Matroid Theory"
+        },
+        "Pregeometry (model theory)": {
+            "href": "https://en.wikipedia.org/wiki/Pregeometry_(model_theory)",
+            "book": "Matroid Theory"
+        }
+    },
+    "Oriented matroids": {
+        "Oriented matroid": {
+            "href": "https://en.wikipedia.org/wiki/Oriented_matroid",
+            "book": "Matroid Theory"
+        },
+        "CC system": {
+            "href": "https://en.wikipedia.org/wiki/CC_system",
+            "book": "Matroid Theory"
+        },
+        "Mn\u00ebv's universality theorem": {
+            "href": "https://en.wikipedia.org/wiki/Mn%C3%ABv%27s_universality_theorem",
+            "book": "Matroid Theory"
+        },
+        "Separoid": {
+            "href": "https://en.wikipedia.org/wiki/Separoid",
+            "book": "Matroid Theory"
+        }
+    },
+    "Algorithmic problems on matroids": {
+        "Greedy algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Greedy_algorithm",
+            "book": "Matroid Theory"
+        },
+        "Weighted matroid": {
+            "href": "https://en.wikipedia.org/wiki/Weighted_matroid",
+            "book": "Matroid Theory"
+        },
+        "Minimum spanning tree": {
+            "href": "https://en.wikipedia.org/wiki/Minimum_spanning_tree",
+            "book": "Matroid Theory"
+        },
+        "Matroid intersection": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_intersection",
+            "book": "Matroid Theory"
+        },
+        "Matroid partitioning": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_partitioning",
+            "book": "Matroid Theory"
+        },
+        "Matroid parity problem": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_parity_problem",
+            "book": "Matroid Theory"
+        },
+        "Matroid oracle": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_oracle",
+            "book": "Matroid Theory"
+        },
+        "Criss-cross algorithm": {
+            "href": "https://en.wikipedia.org/wiki/Criss-cross_algorithm",
+            "book": "Matroid Theory"
+        }
+    },
+    "Matroid generalizations of graph theory": {
+        "Matroid girth": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_girth",
+            "book": "Matroid Theory"
+        },
+        "Bipartite matroid": {
+            "href": "https://en.wikipedia.org/wiki/Bipartite_matroid",
+            "book": "Matroid Theory"
+        },
+        "Eulerian matroid": {
+            "href": "https://en.wikipedia.org/wiki/Eulerian_matroid",
+            "book": "Matroid Theory"
+        },
+        "Ear decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Ear_decomposition",
+            "book": "Matroid Theory"
+        },
+        "Branch-decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Branch-decomposition",
+            "book": "Matroid Theory"
+        },
+        "Clique-sum": {
+            "href": "https://en.wikipedia.org/wiki/Clique-sum",
+            "book": "Matroid Theory"
+        },
+        "Matroid minor": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_minor",
+            "book": "Matroid Theory"
+        },
+        "Rota's conjecture": {
+            "href": "https://en.wikipedia.org/wiki/Rota%27s_conjecture",
+            "book": "Matroid Theory"
+        },
+        "Tutte homotopy theorem": {
+            "href": "https://en.wikipedia.org/wiki/Tutte_homotopy_theorem",
+            "book": "Matroid Theory"
+        },
+        "Whitney's planarity criterion": {
+            "href": "https://en.wikipedia.org/wiki/Whitney%27s_planarity_criterion",
+            "book": "Matroid Theory"
+        }
+    },
+    "Matroid generalizations of discrete geometry": {
+        "Sylvester matroid": {
+            "href": "https://en.wikipedia.org/wiki/Sylvester_matroid",
+            "book": "Matroid Theory"
+        },
+        "Sylvester\u2013Gallai theorem": {
+            "href": "https://en.wikipedia.org/wiki/Sylvester%E2%80%93Gallai_theorem",
+            "book": "Matroid Theory"
+        },
+        "Rota's basis conjecture": {
+            "href": "https://en.wikipedia.org/wiki/Rota%27s_basis_conjecture",
+            "book": "Matroid Theory"
+        },
+        "K-set (geometry)": {
+            "href": "https://en.wikipedia.org/wiki/K-set_(geometry)",
+            "book": "Matroid Theory"
+        },
+        "Arrangement of hyperplanes": {
+            "href": "https://en.wikipedia.org/wiki/Arrangement_of_hyperplanes",
+            "book": "Matroid Theory"
+        }
+    },
+    "Matroid polynomials": {
+        "Tutte polynomial": {
+            "href": "https://en.wikipedia.org/wiki/Tutte_polynomial",
+            "book": "Matroid Theory"
+        },
+        "Colored matroid": {
+            "href": "https://en.wikipedia.org/wiki/Colored_matroid",
+            "book": "Matroid Theory"
+        },
+        "Ingleton's inequality": {
+            "href": "https://en.wikipedia.org/wiki/Ingleton%27s_inequality",
+            "book": "Matroid Theory"
+        }
+    },
+    "Related structures": {
+        "Greedoid": {
+            "href": "https://en.wikipedia.org/wiki/Greedoid",
+            "book": "Matroid Theory"
+        },
+        "Antimatroid": {
+            "href": "https://en.wikipedia.org/wiki/Antimatroid",
+            "book": "Matroid Theory"
+        },
+        "Coxeter matroid": {
+            "href": "https://en.wikipedia.org/wiki/Coxeter_matroid",
+            "book": "Matroid Theory"
+        },
+        "Matroid embedding": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_embedding",
+            "book": "Matroid Theory"
+        },
+        "Matroid polytope": {
+            "href": "https://en.wikipedia.org/wiki/Matroid_polytope",
+            "book": "Matroid Theory"
+        },
+        "Polymatroid": {
+            "href": "https://en.wikipedia.org/wiki/Polymatroid",
+            "book": "Matroid Theory"
+        },
+        "Submodular set function": {
+            "href": "https://en.wikipedia.org/wiki/Submodular_set_function",
+            "book": "Matroid Theory"
+        }
+    }
+}

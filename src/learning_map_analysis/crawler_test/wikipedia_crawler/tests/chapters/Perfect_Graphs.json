@@ -1,0 +1,206 @@
+{
+    "Background and definitions": {
+        "Graph theory": {
+            "href": "https://en.wikipedia.org/wiki/Graph_theory",
+            "book": "Perfect Graphs"
+        },
+        "Undirected graphs": {
+            "href": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "book": "Perfect Graphs"
+        },
+        "Cliques": {
+            "href": "https://en.wikipedia.org/wiki/Clique_(graph_theory)",
+            "book": "Perfect Graphs"
+        },
+        "Independent sets": {
+            "href": "https://en.wikipedia.org/wiki/Independent_set_(graph_theory)",
+            "book": "Perfect Graphs"
+        },
+        "Graph coloring": {
+            "href": "https://en.wikipedia.org/wiki/Graph_coloring",
+            "book": "Perfect Graphs"
+        },
+        "Clique cover": {
+            "href": "https://en.wikipedia.org/wiki/Clique_cover",
+            "book": "Perfect Graphs"
+        },
+        "Induced cycle": {
+            "href": "https://en.wikipedia.org/wiki/Induced_path",
+            "book": "Perfect Graphs"
+        },
+        "Perfect graph": {
+            "href": "https://en.wikipedia.org/wiki/Perfect_graph",
+            "book": "Perfect Graphs"
+        }
+    },
+    "Structure theorems and perfection-preserving graph operations": {
+        "Complement graph": {
+            "href": "https://en.wikipedia.org/wiki/Complement_graph",
+            "book": "Perfect Graphs"
+        },
+        "Induced subgraph": {
+            "href": "https://en.wikipedia.org/wiki/Induced_subgraph",
+            "book": "Perfect Graphs"
+        },
+        "Skew partition": {
+            "href": "https://en.wikipedia.org/wiki/Skew_partition",
+            "book": "Perfect Graphs"
+        },
+        "Lexicographic product of graphs": {
+            "href": "https://en.wikipedia.org/wiki/Lexicographic_product_of_graphs",
+            "book": "Perfect Graphs"
+        },
+        "Perfect graph theorem": {
+            "href": "https://en.wikipedia.org/wiki/Perfect_graph_theorem",
+            "book": "Perfect Graphs"
+        },
+        "Strong perfect graph theorem": {
+            "href": "https://en.wikipedia.org/wiki/Strong_perfect_graph_theorem",
+            "book": "Perfect Graphs"
+        }
+    },
+    "Bipartite graphs, their line graphs, and their matchings": {
+        "Bipartite graph": {
+            "href": "https://en.wikipedia.org/wiki/Bipartite_graph",
+            "book": "Perfect Graphs"
+        },
+        "Line graph": {
+            "href": "https://en.wikipedia.org/wiki/Line_graph",
+            "book": "Perfect Graphs"
+        },
+        "Matching (graph theory)": {
+            "href": "https://en.wikipedia.org/wiki/Matching_(graph_theory)",
+            "book": "Perfect Graphs"
+        },
+        "Hall's marriage theorem": {
+            "href": "https://en.wikipedia.org/wiki/Hall%27s_marriage_theorem",
+            "book": "Perfect Graphs"
+        },
+        "K\u0151nig's theorem (graph theory)": {
+            "href": "https://en.wikipedia.org/wiki/K%C5%91nig%27s_theorem_(graph_theory)",
+            "book": "Perfect Graphs"
+        },
+        "Dulmage\u2013Mendelsohn decomposition": {
+            "href": "https://en.wikipedia.org/wiki/Dulmage%E2%80%93Mendelsohn_decomposition",
+            "book": "Perfect Graphs"
+        },
+        "Rook's graph": {
+            "href": "https://en.wikipedia.org/wiki/Rook%27s_graph",
+            "book": "Perfect Graphs"
+        }
+    },
+    "Chains and antichains in partial orders": {
+        "Partially ordered set": {
+            "href": "https://en.wikipedia.org/wiki/Partially_ordered_set",
+            "book": "Perfect Graphs"
+        },
+        "Comparability graph": {
+            "href": "https://en.wikipedia.org/wiki/Comparability_graph",
+            "book": "Perfect Graphs"
+        },
+        "Dilworth's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Dilworth%27s_theorem",
+            "book": "Perfect Graphs"
+        },
+        "Mirsky's theorem": {
+            "href": "https://en.wikipedia.org/wiki/Mirsky%27s_theorem",
+            "book": "Perfect Graphs"
+        },
+        "Cograph": {
+            "href": "https://en.wikipedia.org/wiki/Cograph",
+            "book": "Perfect Graphs"
+        },
+        "Threshold graph": {
+            "href": "https://en.wikipedia.org/wiki/Threshold_graph",
+            "book": "Perfect Graphs"
+        },
+        "Trivially perfect graph": {
+            "href": "https://en.wikipedia.org/wiki/Trivially_perfect_graph",
+            "book": "Perfect Graphs"
+        },
+        "Permutation graph": {
+            "href": "https://en.wikipedia.org/wiki/Permutation_graph",
+            "book": "Perfect Graphs"
+        }
+    },
+    "Chordal and interval graphs": {
+        "Chordal graph": {
+            "href": "https://en.wikipedia.org/wiki/Chordal_graph",
+            "book": "Perfect Graphs"
+        },
+        "Interval graph": {
+            "href": "https://en.wikipedia.org/wiki/Interval_graph",
+            "book": "Perfect Graphs"
+        },
+        "Apollonian network": {
+            "href": "https://en.wikipedia.org/wiki/Apollonian_network",
+            "book": "Perfect Graphs"
+        },
+        "Block graph": {
+            "href": "https://en.wikipedia.org/wiki/Block_graph",
+            "book": "Perfect Graphs"
+        },
+        "Indifference graph": {
+            "href": "https://en.wikipedia.org/wiki/Indifference_graph",
+            "book": "Perfect Graphs"
+        },
+        "K-tree": {
+            "href": "https://en.wikipedia.org/wiki/K-tree",
+            "book": "Perfect Graphs"
+        },
+        "Leaf power": {
+            "href": "https://en.wikipedia.org/wiki/Leaf_power",
+            "book": "Perfect Graphs"
+        },
+        "Maximal outerplanar graph": {
+            "href": "https://en.wikipedia.org/wiki/Outerplanar_graph",
+            "book": "Perfect Graphs"
+        },
+        "Ptolemaic graph": {
+            "href": "https://en.wikipedia.org/wiki/Ptolemaic_graph",
+            "book": "Perfect Graphs"
+        },
+        "Split graph": {
+            "href": "https://en.wikipedia.org/wiki/Split_graph",
+            "book": "Perfect Graphs"
+        },
+        "Strongly chordal graph": {
+            "href": "https://en.wikipedia.org/wiki/Strongly_chordal_graph",
+            "book": "Perfect Graphs"
+        },
+        "Windmill graph": {
+            "href": "https://en.wikipedia.org/wiki/Windmill_graph",
+            "book": "Perfect Graphs"
+        }
+    },
+    "Other classes of perfect graphs": {
+        "Distance-hereditary graph": {
+            "href": "https://en.wikipedia.org/wiki/Distance-hereditary_graph",
+            "book": "Perfect Graphs"
+        },
+        "Line perfect graph": {
+            "href": "https://en.wikipedia.org/wiki/Line_perfect_graph",
+            "book": "Perfect Graphs"
+        },
+        "Meyniel graph": {
+            "href": "https://en.wikipedia.org/wiki/Meyniel_graph",
+            "book": "Perfect Graphs"
+        },
+        "Parity graph": {
+            "href": "https://en.wikipedia.org/wiki/Parity_graph",
+            "book": "Perfect Graphs"
+        },
+        "Perfectly orderable graph": {
+            "href": "https://en.wikipedia.org/wiki/Perfectly_orderable_graph",
+            "book": "Perfect Graphs"
+        },
+        "Tolerance graph": {
+            "href": "https://en.wikipedia.org/wiki/Tolerance_graph",
+            "book": "Perfect Graphs"
+        },
+        "Trapezoid graph": {
+            "href": "https://en.wikipedia.org/wiki/Trapezoid_graph",
+            "book": "Perfect Graphs"
+        }
+    }
+}
