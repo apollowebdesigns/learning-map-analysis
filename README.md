@@ -3,7 +3,7 @@ For University project on creating learning journeys
 
 ## How to use this project
 
-See (TOOLING.md)[TOOLING.md] for what tools are used and how to set them up.
+See [TOOLING.md](TOOLING.md) for what tools are used and how to set them up.
 
 ### Generating figures inside of the project report
 
