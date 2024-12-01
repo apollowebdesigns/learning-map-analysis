@@ -3,6 +3,8 @@ For University project on creating learning journeys
 
 ## How to use this project
 
+See (TOOLING.md)[TOOLING.md] for what tools are used and how to set them up.
+
 ### Generating figures inside of the project report
 
 ```
@@ -24,8 +26,17 @@ The above notebooks can be ran without anything run before. Once these have been
 | Experiment | Notebook | Summary of Analysis Conducted |
 |---|---|---|
 |Wikibook percentage coverage stats|detailed_chapter_analysis.ipynb|Creates a few stats for the report based on code|
-## Tooling used
+|Coursera percentage coverage stats|coursera_detailed_chapter_analysis.ipynb|Creates a few stats for the report based on code|
 
-Python 3.12
+### Further notes
 
-Project uses [PDM](https://pdm-project.org/en/latest/) for dependency management.
+There are plenty of exploratory notebooks in that directory.
+
+The code was made to be very flexible and extensible - for example, other languages on different Wikipedias can be used by changing key
+constants.
+
+### Future work
+
+1. Different language investigation
+2. Mosquito disease clustering 
+3. Switching web scraper for exhaustive database
